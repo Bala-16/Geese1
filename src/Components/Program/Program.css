@@ -1,0 +1,62 @@
+.full-width-image {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.full-width-image img {
+  width: 100%;
+  height: auto;            /* Always scales with width */
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+/* Optional: max-height control for large screens */
+@media (min-width: 1024px) {
+  .full-width-image img {
+    max-height: 700px; /* prevent too tall on large screens */
+  }
+}
+
+@media (max-width: 767px) {
+  .full-width-image img {
+    max-height: 400px;
+  }
+}
+
+
+.trainers-section {
+  background-color: #15416e;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.trainers-title {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.trainers-title span {
+  color: #ffd702;
+}
+
+/* Responsive font sizes */
+@media (max-width: 768px) {
+  .trainers-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .trainers-title {
+    font-size: 22px;
+  }
+}
+
