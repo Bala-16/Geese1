@@ -3,9 +3,9 @@ import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import "./Home.css";
 import { motion } from "framer-motion";
-import geese1 from "../../assets/geese1.png"
-import geese2 from "../../assets/geese2.png"
-import logo from "../../assets/logo.png";
+import geese1 from "../../assets/geese1.png";
+import geese2 from "../../assets/geese2.png";
+// import logo from "../../assets/logo.png";
 import king from "../../assets/king.mp4";
 
 import Nike from "../../assets/Corparate clients/Nike.png";
@@ -38,34 +38,6 @@ const Home = () => {
     setIsOpen(!isOpen);
   };
 
-  const benefits = [
-    {
-      title: "✔ Deep Industry Experience",
-      description:
-        "We bring decades of hands-on experience across industries, giving us the insight to tailor solutions that actually work.",
-    },
-    {
-      title: "✔ Custom-Fit Solutions",
-      description:
-        "Every organization is different. Our services are tailored to meet your exact needs, no matter your size or sector.",
-    },
-    {
-      title: "✔ Certified & Passionate(Trainers & Conslutants)",
-      description:
-        "Our team are not only certified but deeply passionate about helping teams and leaders grow.",
-    },
-    {
-      title: "✔ Measurable Outcomes",
-      description:
-        "We focus on data-driven results — clear metrics that show the positive impact of our work.",
-    },
-    {
-      title: "✔ Long-Term Partnerships",
-      description:
-        "We believe in relationships, not transactions. We're with you for the long haul.",
-    },
-  ];
-
   const impactData = [
     {
       icon: "💼",
@@ -93,11 +65,6 @@ const Home = () => {
     { number: 150, suffix: "+", label: "CEOs" },
   ];
 
-  const [activeIndex, setActiveIndex] = useState(null);
-
-  const handleBenefitClick = (index) => {
-    setActiveIndex(index === activeIndex ? null : index);
-  };
   return (
     <>
       <div className="home-container">
@@ -170,7 +137,7 @@ const Home = () => {
       <section className="nadhakumar-container">
         {/* Left side - Text */}
         <div className="nadhakumar-text">
-          <h5>
+          <h5 className="welcome">
             Welcome to <span>GEESE</span> - Your Trusted Partner in Business
             Excellence
           </h5>
@@ -195,15 +162,13 @@ const Home = () => {
           <p className="cta">
             Let's shape the future of your business <span>- together.</span>
           </p>
-
-         
         </div>
 
         {/* Right side - Image */}
         <div className="nadhakumar-image">
-        <img src={geese1} alt="geese" />
+          <img src={geese1} alt="geese" />
           <img src={geese2} alt="geese" />
-           <div className="unique-section">
+          <div className="unique-section">
             <button onClick={toggleSection} className="toggle-btn">
               {isOpen ? "Hide ▲" : "What Makes Us Unique? ▼"}
             </button>
@@ -233,12 +198,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-
-
       </section>
 
- <div className="who-we-are">
+      <div className="who-we-are">
         <section className="whoami-section">
           <div className="whoami-content">
             <div className="text-block">
@@ -317,7 +279,7 @@ const Home = () => {
           </motion.div>
         </div>
 
-         <div className="empower-card">
+        <div className="empower-card">
           {/* <h2 className="tagline">Empowering People. Enabling Growth.</h2> */}
           <p className="description">
             At <strong>GEESE</strong> we don’t just consult — we transform. With
@@ -360,59 +322,7 @@ const Home = () => {
             Let’s build the future of your workforce — <span>together</span>.
           </p>
         </div>
-
-
       </section>
-
-
-       
-
-
-
-
-
-
-
-
-
-      <div>
-        <div className="who-we-are">
-          <section className="whoami-section">
-            <div className="whoami-content">
-              <div className="text-block">
-                <h2 className="whoami-title">
-                  Why,<span>GEESE?</span>
-                  {/* <span className="button-block">
-                  <button className="whoami-button">Learn More</button>
-                </span> */}
-                </h2>
-              </div>
-            </div>
-          </section>
-        </div>
-        <section className="whychoose-container">
-          {/* <h2 className="whychoose-heading">Why Choose GEESE?</h2> */}
-          <ul className="benefits-list">
-            {benefits.map((benefit, index) => (
-              <li
-                key={index}
-                className="benefit-item"
-                onClick={() => handleBenefitClick(index)}
-              >
-                {benefit.title}
-                {activeIndex === index && (
-                  <div className="benefit-card animate-fade">
-                    {benefit.description}
-                  </div>
-                )}
-              </li>
-            ))}
-          </ul>
-          <p className="benefit-note">
-            Because your success is not just our goal — it’s our mission.
-          </p>
-        </section>
-      </div>
 
       <div className="full-underline"></div>
       <marquee
@@ -465,7 +375,6 @@ const Home = () => {
           </p>
         </section>
       </div>
-     
     </>
   );
 };
