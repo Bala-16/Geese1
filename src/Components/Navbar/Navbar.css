@@ -24,13 +24,19 @@
 
 .link a {
   text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
   color: #fff;
-  font-size: 18px;
+  font-size: 1.3rem;
+  padding-right: 10px;
   transition: color 0.3s;
 }
 
 .link a:hover {
-  color: #1d0d0e;
+  color: #ffd702;
+}
+.link a:hover::after {
+  width: 100%;
 }
 .btn {
   background: #f4c542;

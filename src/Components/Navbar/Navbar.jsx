@@ -17,15 +17,18 @@ const Navbar = () => {
       </button>
 
       <div className={`link ${isOpen ? "open" : ""}`}>
-       <Link to="/">Home</Link>
-       <Link to="/about">About</Link>
-       <Link to="/Program">Program</Link>
-       <Link to="/Contact" className="btn">Contact</Link>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/Program">Our Program</Link>
+        <Link to="/Blog">Our blog</Link>
+        <Link to="/Contact" className="btn">
+          Contact
+        </Link>
 
         {/* <a href="#"/>Home</a> */}
         {/* <a href="#">About</a> */}
         {/* <a href="#">Programs</a> */}
-      {/* <div><a  href="#" className="btn">Contact</a></div>   */}
+        {/* <div><a  href="#" className="btn">Contact</a></div>   */}
       </div>
     </nav>
   );
