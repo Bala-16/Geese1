@@ -353,28 +353,6 @@ const Home = () => {
       <div className="full-underline1"></div>
       <br />
 
-      <div>
-        <section className="impact-container">
-          <h2 className="impact-heading">
-            Our <span>Impact</span>
-          </h2>
-          <div className="impact-grid">
-            {impactData.map((item, index) => (
-              <div
-                className="impact-box"
-                key={index}
-                style={{ animationDelay: `${index * 0.2}s` }}
-              >
-                <div className="impact-icon">{item.icon}</div>
-                <div className="impact-text">{item.title}</div>
-              </div>
-            ))}
-          </div>
-          <p className="impact-footer">
-            Real stories. Real transformation. Real growth.
-          </p>
-        </section>
-      </div>
     </>
   );
 };
