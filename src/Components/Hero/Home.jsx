@@ -23,6 +23,14 @@ import SBT from "../../assets/Corparate clients/SBT.jpg";
 import Tanishq from "../../assets/Corparate clients/Tanishq.png";
 import TCCL from "../../assets/Corparate clients/TCCL.png";
 import Thanigai from "../../assets/Corparate clients/Thanigai.jpg";
+import Orange from "../../assets/Corparate clients/Orange.png";
+import Murugappa from "../../assets/Corparate clients/Murugappa.png";
+import Focus from "../../assets/Corparate clients/Focus.png";
+import Royal from "../../assets/Corparate clients/Royal.png";
+import GE from "../../assets/Corparate clients/GE.png";
+import KB from "../../assets/Corparate clients/KB.png";
+import MCP from "../../assets/Corparate clients/MCP.png";
+import km from "../../assets/Corparate clients/km.png";
 // import Hyundai from '../../assets/Corparate clients/Hyundai.jpg'
 import BNI from "../../assets/Association/BNI.png";
 import JCI from "../../assets/Association/JCI.jpg";
@@ -30,6 +38,11 @@ import LI from "../../assets/Association/LI.png";
 import Rotary from "../../assets/Association/Rotary.png";
 import TAI from "../../assets/Association/TAI.png";
 import TNHA from "../../assets/Association/TNHA.png";
+
+import AN from "../../assets/University/AN.jpg"
+import AREK from "../../assets/University/AREK.png"
+import IIM from "../../assets/University/IIM.jpg"
+import NIT from "../../assets/University/NIT.png"
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -69,7 +82,7 @@ const Home = () => {
     <>
       <div className="home-container">
         <div className="home-left">
-          <h1 className="animate-up title">
+          <h1 className="animate-up title-1">
             <span>#</span>Empowering People. Enabling Growth.
           </h1>
           <p className="animate-up subtitle">
@@ -92,32 +105,35 @@ const Home = () => {
             playsInline
           />
         </div>
-        <div className="full-underline"></div>
-        <div className="corporate">{/* <h1>Corporate clients</h1> */}</div>
-        <marquee
-          behavior="scroll"
-          direction="left"
-          scrollamount="5"
-          className="logo-marquee"
-        >
-          <img src={Nike} alt="Nike" />
-          <img src={Hyundai} alt="Hyundai" />
-          <img src={HL} alt="HL" />
-          <img src={Apollo} alt="Apollo" />
-          <img src={Converse} alt="Conerse" />
-          <img src={crocs} alt="crocs" />
-          <img src={Decathlon} alt="Decathlon" />
-          <img src={Navin} alt="Navin" />
-          <img src={Nordex} alt="Nordex" />
-          <img src={Sachin} alt="Sachin" />
-          <img src={salomon} alt="salomon" />
-          <img src={SBT} alt="Sbt" />
-          <img src={Tanishq} alt="Tanishq" />
-          <img src={TCCL} alt="Apollo" />
-
-          <img src={Thanigai} alt="Apollo" />
-        </marquee>
-        <div className="full-underline1"></div>
+      </div>
+      <div className="full-underline"></div>
+      <div className="corporate">{/* <h1>Corporate clients</h1> */}</div>
+      <div className="logo-scroll-container">
+        <div className="logo-scroll-track">
+          {[
+            Nike,
+            Hyundai,Royal,
+            HL,
+            Apollo,
+            Converse,
+            crocs,
+            Decathlon,GE,
+            Navin,KB,
+            Nordex,
+            Sachin,
+            salomon,
+            SBT,
+            Tanishq,km,
+            TCCL,MCP,
+            Thanigai,
+            Orange,Focus,Murugappa,
+          ].map((logo, index) => (
+            <figure key={index} className="logo-figure">
+              <img src={logo} alt={`Logo ${index + 1}`} />
+            </figure>
+          ))}
+          <div className="full-underline1"></div>
+        </div>
       </div>
       <div className="who-we-are">
         <section className="whoami-section">
@@ -324,20 +340,20 @@ const Home = () => {
         </div>
       </section>
 
-      <div className="full-underline"></div>
-      <marquee
-        behavior="scroll"
-        direction="left"
-        scrollamount="5"
-        className="logo-marquee"
-      >
-        <img src={BNI} alt="BNI" />
-        <img src={JCI} alt="JCI" />
-        <img src={LI} alt="LI" />
-        <img src={Rotary} alt="ROTARY" />
-        <img src={TAI} alt="ROTARY" />
-        <img src={TNHA} alt="ROTARY" />
-      </marquee>
+      <div className="full-underline-2"></div>
+      <div className="corporate">{/* <h1>Corporate clients</h1> */}</div>
+      <div className="logo-scroll-container">
+        <div className="logo-scroll-track">
+          {[
+            BNI,JCI,LI,Rotary,TAI,TNHA,AN,AREK,IIM,NIT
+          ].map((logo, index) => (
+            <figure key={index} className="logo-figure">
+              <img src={logo} alt={`Logo ${index + 1}`} />
+            </figure>
+          ))}
+          {/* <div className="full-underline-1"></div> */}
+        </div>
+      </div>
       {/* <div className="logo-slider">
   <div className="logo-track">
     <img src={BNI} alt="BNI" />
@@ -350,9 +366,8 @@ const Home = () => {
   </div>
 </div> */}
 
-      <div className="full-underline1"></div>
+      {/* <div className="full-underline1"></div> */}
       <br />
-
     </>
   );
 };
