@@ -1,4 +1,5 @@
 /* src/components/About/About.css */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 :root {
   --e-global-color-accent: #071e23;
@@ -204,9 +205,10 @@
 }
 
 .team-section {
+    font-family: "Bebas Neue", sans-serif;
   width: 100%;
   padding: 40px 20px;
-  background: linear-gradient(to right, #ffffff 48%, #ffd702 49%);
+  background: linear-gradient(to right, #ffffff 49%, #ffd702 50%);
 
   box-sizing: border-box;
 }
@@ -222,7 +224,7 @@
 }
 
 .team-title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   color: #15416e;
 
@@ -267,7 +269,7 @@
 }
 
 .whoami-title {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: #fff;
   margin: 0;
   font-weight: bold;
@@ -320,10 +322,10 @@
   }
 }
 
-.whychoose-container {
+/* .whychoose-container {
   text-align: center;
   margin: 40px 20px;
-}
+} */
 
 .whychoose-btn {
   background-color: #ffd702;
@@ -364,12 +366,13 @@
 }
 
 .whychoose-container {
+  /* font-family: "Bebas Neue", sans-serif; */
   padding: 40px 20px;
   background-image: url("../../assets/img/cornerBG1.png");
   background-repeat: no-repeat;
   background-size: cover;
 
-  /* font-family: "Segoe UI", sans-serif; */
+ 
 }
 
 /* .whychoose-heading {
@@ -387,13 +390,14 @@
 }
 
 .benefit-item {
+  font-family: "Bebas Neue", sans-serif;
   background: #ffd702;
   padding: 15px 20px;
   margin-bottom: 15px;
   border-left: 5px solid #15416e;
   border-radius: 15px;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 2rem;
   transition: background 0.3s;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
@@ -409,7 +413,7 @@
   padding: 12px 16px;
   /* border-left: 3px solid #; */
   border-radius: 6px;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .animate-fade {
@@ -473,7 +477,7 @@
   background: #ffffff;
   background-image: url("../../assets/img/cornerBG1.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position:center;
   border-radius: 15px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease;
@@ -487,20 +491,21 @@
 
 .profile-img {
   width: 100%;
-  height: 200px;
+  height: 300px;
   object-fit: contain;
   border-radius: 10px;
   margin-bottom: 15px;
 }
 
 .profile-card h3 {
-  font-size: 20px;
+  font-family: "Lora", serif;
+  font-size: 2rem;
   margin-bottom: 10px;
 }
 
 .profile-card p {
   white-space: pre-line;
-  font-size: 16px;
+  font-size: 1.5rem;
   color: #333;
 }
 
@@ -508,5 +513,90 @@
 @media (max-width: 768px) {
   .profile-card {
     flex: 1 1 100%;
+  }
+}
+
+
+
+.impact-container {
+ 
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.impact-heading {
+  font-family: "Bebas Neue", sans-serif;
+  background-color: #15416e;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.impact-heading span{
+  color: #ffd702;
+}
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.impact-box {
+  background-color: #f5f8ff;
+  border: 1px solid #dbe5ff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  animation: fadeUp 0.5s ease forwards;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.3s ease-in-out;
+}
+
+.impact-icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.impact-text {
+  
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.impact-footer {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: #444;
+}
+
+/* Animation */
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .impact-box {
+    padding: 24px 16px;
+  }
+
+  .impact-text {
+    font-size: 15px;
+  }
+
+  .impact-footer {
+    font-size: 14px;
   }
 }

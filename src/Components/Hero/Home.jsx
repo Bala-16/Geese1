@@ -153,10 +153,10 @@ const Home = () => {
       <section className="nadhakumar-container">
         {/* Left side - Text */}
         <div className="nadhakumar-text">
-          <h5 className="welcome">
+          <h4 className="welcome">
             Welcome to <span>GEESE</span> - Your Trusted Partner in Business
             Excellence
-          </h5>
+          </h4>
           <p>
             At<span> GEESE</span>, we specialize in delivering strategic
             consulting solutions that empower organizations to thrive in a
@@ -240,7 +240,7 @@ const Home = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h3>Training</h3>
+            <h3 >Training</h3>
             <ul>
               <li>HR Analytics</li>
               <li>Strategic Talent Management</li>
