@@ -35,7 +35,7 @@ const Blog = () => {
   return (
     <section className="blog-section">
       <h2 className="blog-heading">
-        From the <span>GEESE Desk</span>
+        From the <span>GEESE DESK</span>
       </h2>
       <div className="blog-cards">
         {blogPosts.map((post) => (
