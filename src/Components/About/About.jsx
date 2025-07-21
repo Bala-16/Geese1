@@ -147,14 +147,14 @@ Conducted FDPs for 1000+ Teachers`}
 Writer and TV Fame
 Financial Advisor to 100+ Entrepreneurs`}
           />
-          <ProfileCard
+          {/* <ProfileCard
             img={null}
             title="About Sasikumar Subramanian"
             content={`Certified National Trainer - JCI University
 Activity-Based & Outbound Trainer
 Faculty for Management Colleges
 Conducted FDPs for 1000+ Teachers`}
-          />
+          /> */}
         </div>
       </div>
 

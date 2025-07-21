@@ -8,7 +8,7 @@ import BG2 from '../../assets/img/BG2.jpg'
 
 const Programs = () => {
   return (
-    <div className="programs-container">
+    <> <div className="programs-container">
       <div className="left-section">
         <h1 className="title">PUBLIC <span>PROGRAMS</span> </h1>
 
@@ -33,6 +33,11 @@ const Programs = () => {
         </div>
       </div>
     </div>
+    <br/>
+    
+    </>
+   
+    
   );
 };
 

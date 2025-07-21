@@ -7,6 +7,7 @@ import Program from "./Components/Program/Program";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from "./Components/Contact/Contact";
 // import Demo from './Components/Demo/Demo'
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       {/* <About/> */}
       {/* <Program/> */}
 {/* <Demo/> */}
+
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -24,6 +26,7 @@ const App = () => {
            <Route path="/Blog" element={<Blog />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
