@@ -113,20 +113,20 @@
   }
 
   .logo-img {
-    width: 80px;
+    width: 150px;
   }
 
   .book-img {
-    width: 300px;
+    width: 400px;
   }
 
   .title {
     font-size: 2rem;
   }
   .description-1 {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .sub-title {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 }
