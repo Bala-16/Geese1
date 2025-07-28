@@ -124,6 +124,7 @@
     font-size: 2rem;
   }
   .description-1 {
+    max-width: 800px;
     font-size: 1.3rem;
   }
   .sub-title {
