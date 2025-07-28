@@ -1,22 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-
-.home-container{
-  font-family: "Bebas Neue", sans-serif;
-}
-.who-we-are{
-  font-family: "Bebas Neue", sans-serif;
-}
-.welcome,p{
-   font-family: "Bebas Neue", sans-serif;
-}
-.services-cards-1 ,ul{
- font-family: "Bebas Neue", sans-serif;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap");
 
 
 .home-container {
-    background-image: url('../../assets/img/geese4.png');
+  background-image: url("../../assets/img/geese4.png");
   background-repeat: no-repeat;
   background-size: contain;
   /* background-position: center; */
@@ -31,7 +17,6 @@
 }
 
 .home-left {
- 
   flex: 1;
   max-width: 700px;
   padding: 10px;
@@ -118,7 +103,7 @@
 }
 
 .animated-yellow-btn {
-  background-color: #FFD700; 
+  background-color: #ffd700;
   color: #000;
   margin-top: 15px;
   padding: 12px 20px;
@@ -160,10 +145,7 @@
   }
 }
 
-
 .hr-video {
-
-
   width: 100%;
   max-width: 600px;
   height: auto;
@@ -179,8 +161,8 @@
 /* Optional: Responsive padding on mobile */
 @media (max-width: 768px) {
   .home-right {
-    padding:0px 16px;
-    
+    padding: 0px 16px;
+
     text-align: center; /* centers the video */
   }
 
@@ -190,8 +172,6 @@
   }
 }
 
-
-
 .full-underline {
   width: 100%;
   height: 4px;
@@ -200,7 +180,7 @@
   /* animation: slideUp 1s ease; */
 }
 
-  .full-underline1 {
+.full-underline1 {
   width: 100%;
   top: 10px;
   height: 4px;
@@ -215,7 +195,6 @@
   /* animation: slideUp 1s ease; */
 }
 
-
 /* .logo-marquee  img{
   height: 50px;
   margin: 0 40px;
@@ -224,7 +203,7 @@
   max-width: 100%;
 }
   */
-  .logo-scroll-container {
+.logo-scroll-container {
   overflow: hidden;
   width: 100%;
   padding: 10px 0;
@@ -286,10 +265,6 @@
   }
 }
 
-
-
-
-
 /* Layout Container */
 .nadhakumar-container {
   display: flex;
@@ -302,7 +277,7 @@
 
 /* Text Content */
 .nadhakumar-text {
-  background-image: url('../../assets/img/cornerBG1.png');
+  background-image: url("../../assets/img/cornerBG1.png");
   background-repeat: no-repeat;
   background-position: left top;
   background-size: cover;
@@ -310,7 +285,7 @@
   max-width: 900px;
   padding: 60px;
   font-family: "Segoe UI", sans-serif;
-  
+
   color: #1e1e2f;
 }
 
@@ -319,7 +294,7 @@
   color: #000;
   margin-bottom: 20px;
 }
-.nadhakumar-text span{
+.nadhakumar-text span {
   font-family: "Lora", serif;
   color: #15416e;
   font-weight: bold;
@@ -341,14 +316,12 @@
 }
 
 .nadhakumar-image img {
-
   max-width: 100%;
   height: auto;
- 
 }
 
 /* Toggle Button */
-.toggle-btn{
+.toggle-btn {
   margin-top: 20px;
   background-color: #ffd702;
   color: #000;
@@ -378,8 +351,7 @@
 }
 
 .unique-content.open {
-  padding:5px 10px;
-  
+  padding: 5px 10px;
 }
 
 .unique-content ul {
@@ -440,9 +412,6 @@
   }
 }
 
-
-
-
 /* .services-section {
   padding: 60px 20px;
   background: #f8f9fa;
@@ -490,12 +459,7 @@
   line-height: 1.6;
 } */
 
-
-
-
-
 .empower-card {
-  
   background: #ffd702;
   padding: 2.5rem;
   border-radius: 20px;
@@ -521,11 +485,10 @@
   margin-bottom: 2rem;
   text-align: center;
 }
-.description strong{
+.description strong {
   font-family: "Lora", serif;
   color: #15416e;
 }
-
 
 .stats-row {
   display: grid;
@@ -590,134 +553,5 @@
   }
   .stat-number {
     font-size: 1.5rem;
-  }
-}
-
-
-
-
-.services-section-2 {
-  padding: 4rem 2rem;
-  background-color: #f9faff;
-  text-align: center;
-}
-
-.services-heading-2 {
-  font-size: 3rem;
-  color: #fff;
-  background-color: #15416e;
-  margin-bottom: 3rem;
- 
-  text-transform: uppercase;
- 
-}
-.services-heading-2 span{
-  color: #ffd702;
-}
-.services-cards-1 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  justify-content: center;
-}
-
-.service-card-2{
-  background-image: url("../../assets/img/starBG.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  
-  padding: 2rem;
-  border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease;
-  text-align: left;
-}
-
-.service-card-2:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
-}
-
-.service-card-2 h3 {
-  font-size: 2.5rem;
-  color: #15416e;
-position: relative;
-  text-align: center;
-  margin-bottom: 1rem;
-  font-weight: 600;
-  cursor: pointer; /* optional: adds hover hand cursor */
-  transition: color 0.3s ease;
-
-}
-.service-card-2 h3::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  width: 0%;
-  height: 3px;
-  background-color: #ffd702;
-  transition: width 0.4s ease;
-}
-
-.service-card-2 h3:hover::after {
-  width: 100%;
-}
-
-.service-card-2 h4 {
-  font-size: 1.4rem;
-  color: #000;
-  text-decoration: underline;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-}
-
-.service-card-2 ul {
-  padding-left: 1rem;
-  list-style: disc;
-}
-
-.service-card-2 li {
-  margin-bottom: 0.5rem;
-  font-size: 1.4rem;
-  color: #000;
-  line-height: 1.5;
-}
-@media (max-width: 768px) {
-  .services-heading-2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .service-card-2 h3 {
-    font-size: 1.25rem;
-  }
-
-  .service-card-2 {
-    padding: 1.5rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .services-heading-2 {
-    font-size: 1.75rem;
-  }
-
-  .services-cards-2 {
-    grid-template-columns: 1fr;
-  }
-
-  .service-card-2 h3 {
-    font-size: 1.2rem;
-  }
-
-  .service-card-2 ul {
-    padding-left: 1rem;
-  }
-
-  .service-card-2 li {
-    font-size: 0.9rem;
   }
 }

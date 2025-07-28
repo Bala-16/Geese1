@@ -5,11 +5,10 @@
 }
 
 .footer-highlight {
-  background-color: #ffcc00;
-  padding: 20px;
+  background-color: #ffd702;
+  padding: 8px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -35,7 +34,7 @@
 .footer-top {
   display: flex;
   justify-content: space-between;
-  padding: 40px;
+  padding: 10px 30px;
   flex-wrap: wrap;
 }
 
@@ -74,11 +73,11 @@
   text-align: center;
   color: #ffcc00;
  
-  margin: 30px 0;
+  margin: 10px 0;
 }
 
 .footer-message p {
-  font-size: 16px;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
@@ -92,7 +91,8 @@
   text-align: center;
   padding: 20px;
   background-color: #011114;
-  font-size: 14px;
+  color: #ffd702;
+  font-size: 15px;
   border-top: 1px solid #444;
 }
 .footer-email-form {
@@ -119,7 +119,7 @@
   color: white;
   border: none;
   border-radius: 25px;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }

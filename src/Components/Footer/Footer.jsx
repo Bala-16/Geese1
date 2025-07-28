@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="footer-container">
       {/* Top Highlight Section */}
       <div className="footer-highlight">
-        <img src={logo} alt="GEESE Logo" className="highlight-logo" />
+        {/* <img src={logo} alt="GEESE Logo" className="highlight-logo" /> */}
         <div className="highlight-social">
             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
     <FontAwesomeIcon icon={faFacebookF} />

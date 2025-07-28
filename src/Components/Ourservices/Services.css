@@ -1,0 +1,126 @@
+
+.services-section-2 {
+  padding: 4rem 2rem;
+  background-color: #f9faff;
+  text-align: center;
+}
+
+.services-heading-2 {
+  font-size: 3rem;
+  color: #fff;
+  background-color: #15416e;
+  margin-bottom: 3rem;
+ 
+  text-transform: uppercase;
+ 
+}
+.services-heading-2 span{
+  color: #ffd702;
+}
+.services-cards-1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.service-card-2{
+  background-image: url("../../assets/img/starBG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.service-card-2:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.service-card-2 h3 {
+  font-size: 2.5rem;
+  color: #15416e;
+position: relative;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  cursor: pointer; /* optional: adds hover hand cursor */
+  transition: color 0.3s ease;
+
+}
+.service-card-2 h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 3px;
+  background-color: #ffd702;
+  transition: width 0.4s ease;
+}
+
+.service-card-2 h3:hover::after {
+  width: 100%;
+}
+
+.service-card-2 h4 {
+  font-size: 1.4rem;
+  color: #000;
+  text-decoration: underline;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.service-card-2 ul {
+  padding-left: 1rem;
+  list-style: disc;
+}
+
+.service-card-2 li {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  color: #000;
+  line-height: 1.5;
+}
+@media (max-width: 768px) {
+  .services-heading-2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .service-card-2 h3 {
+    font-size: 1.25rem;
+  }
+
+  .service-card-2 {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-heading-2 {
+    font-size: 1.75rem;
+  }
+
+  .services-cards-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card-2 h3 {
+    font-size: 1.2rem;
+  }
+
+  .service-card-2 ul {
+    padding-left: 1rem;
+  }
+
+  .service-card-2 li {
+    font-size: 0.9rem;
+  }
+}

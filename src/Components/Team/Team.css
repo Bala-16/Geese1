@@ -1,0 +1,162 @@
+
+.team-section {
+    font-family: "Bebas Neue", sans-serif;
+  width: 100%;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #ffffff 49%, #ffd702 50%);
+
+  box-sizing: border-box;
+}
+
+.team-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.team-header {
+  width: 100%;
+}
+
+.team-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #15416e;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.team-title span {
+  color: #000;
+}
+@media (max-width: 768px) {
+  .team-title {
+    font-size: 2.2rem;
+  }
+}
+.qualifications-wrapper {
+  background-image: url("../../assets/img/starBG.png");
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.qualification-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.profile-card {
+  flex: 1 1 48%;
+  padding: 20px;
+  background: #ffffff;
+  background-image: url("../../assets/img/cornerBG1.png");
+  background-repeat: no-repeat;
+  background-position:center;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+.profile-img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.profile-card h3 {
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.profile-card p {
+  white-space: pre-line;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .profile-card {
+    flex: 1 1 100%;
+  }
+}
+
+
+
+
+.trainer-section {
+  padding: 60px 20px;
+ 
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.trainer-heading {
+  background-color: darkgray;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #fff;
+}
+.trainer-heading span {
+color: #ffd702;
+}
+
+.trainer-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.trainer-card {
+   background-image: url('../../assets/img/starBG.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: lightgray; */
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 25px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.trainer-card:hover {
+  transform: translateY(-8px);
+}
+
+.trainer-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position:top ;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 4px solid #ffd702;
+}
+
+.trainer-role {
+  color: #555;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.trainer-bio {
+  font-size: 0.95rem;
+  color: #666;
+}
+

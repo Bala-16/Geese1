@@ -19,16 +19,13 @@ const Navbar = () => {
       <div className={`link ${isOpen ? "open" : ""}`}>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
+        <Link to="/team">Our Team</Link>
+        <Link to="/services">Our Services</Link>
         <Link to="/Program">Our Program</Link>
         <Link to="/Blog">Our blog</Link>
         <Link to="/Contact" className="btn">
           Contact
         </Link>
-
-        {/* <a href="#"/>Home</a> */}
-        {/* <a href="#">About</a> */}
-        {/* <a href="#">Programs</a> */}
-        {/* <div><a  href="#" className="btn">Contact</a></div>   */}
       </div>
     </nav>
   );

@@ -70,13 +70,7 @@ const Home = () => {
     },
   ];
 
-  const stats = [
-    { number: 12, suffix: "+", label: "Years of Experience" },
-    { number: 50, suffix: "+", label: "Corporates Empowered" },
-    { number: 500000, suffix: "+", label: "Employees Shaped" },
-    { number: 5000, suffix: "+", label: "Professionals" },
-    { number: 150, suffix: "+", label: "CEOs" },
-  ];
+
 
   return (
     <>
@@ -135,6 +129,8 @@ const Home = () => {
           <div className="full-underline1"></div>
         </div>
       </div>
+
+
       <div className="who-we-are">
         <section className="whoami-section">
           <div className="whoami-content">
@@ -213,130 +209,6 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <div className="who-we-are">
-        <section className="whoami-section">
-          <div className="whoami-content">
-            <div className="text-block">
-              <h2 className="whoami-title">
-                What we do ?, <span>Our action on your organiztion</span>
-              </h2>
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <section className="services-section-2">
-        <h2 className="services-heading-2">
-          {/* Our <span>Programs</span> */}
-        </h2>
-        <div className="services-cards-1">
-          {/* Training Card */}
-          <motion.div
-            className="service-card-2"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            <h3 >Training</h3>
-            <ul>
-              <li>HR Analytics</li>
-              <li>Strategic Talent Management</li>
-              <li>Mergers and Acquisitions (M&A) HR Integration</li>
-              <li>Diversity, Equity, and Inclusion (DE&I) Initiatives</li>
-              <li>Employee Relations and Conflict Resolution</li>
-              <li>HR change management</li>
-              <li>Customer Delight</li>
-            </ul>
-          </motion.div>
-
-          {/* Coaching Card */}
-          <motion.div
-            className="service-card-2"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            <h3>Coaching</h3>
-            <h4>CEO Coaching</h4>
-            <ul>
-              <li>1-2-1 counseling</li>
-              <li>Strategic planning</li>
-              <li>Assessments</li>
-            </ul>
-            <h4>Leadership Coaching</h4>
-            <ul>
-              <li>Advanced Leadership</li>
-              <li>Conflict Management</li>
-              <li>Delegation & Emotional Intelligence</li>
-            </ul>
-          </motion.div>
-
-          {/* Consulting Card */}
-          <motion.div
-            className="service-card-2"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-          >
-            <h3>Consulting</h3>
-            <ul>
-              <li>Strategic Guidance</li>
-              <li>Operational Efficiency</li>
-              <li>Talent Management</li>
-              <li>Financial Expertise</li>
-              <li>Technological Innovation</li>
-              <li>Marketing and Sales Support</li>
-              <li>Organizational Change Management</li>
-              <li>Risk Management</li>
-            </ul>
-          </motion.div>
-        </div>
-
-        <div className="empower-card">
-          {/* <h2 className="tagline">Empowering People. Enabling Growth.</h2> */}
-          <p className="description">
-            At <strong>GEESE</strong> we don’t just consult — we transform. With
-            over <br />
-            <span>
-              {" "}
-              we are on a mission to create performance-driven people and
-              purpose-driven organizations.
-            </span>
-          </p>
-
-          <div className="stats-row">
-            {stats.map((stat, index) => {
-              const { ref, inView } = useInView({
-                triggerOnce: true,
-                threshold: 0.5, // Start animation when 50% visible
-              });
-
-              return (
-                <div className="stat" key={index} ref={ref}>
-                  <h3 className="stat-number">
-                    {inView ? (
-                      <CountUp
-                        end={stat.number}
-                        duration={2}
-                        separator=","
-                        suffix={stat.suffix}
-                      />
-                    ) : (
-                      "0"
-                    )}
-                  </h3>
-                  <p className="stat-label">{stat.label}</p>
-                </div>
-              );
-            })}
-          </div>
-
-          <p className="cta">
-            Let’s build the future of your workforce — <span>together</span>.
-          </p>
         </div>
       </section>
 

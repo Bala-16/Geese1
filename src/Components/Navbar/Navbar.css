@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
 
 
- .container{
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
+body{
+   font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: weight; */
   font-style: normal;
 }
 /* Base layout */
@@ -34,7 +35,7 @@
   text-transform: uppercase;
   text-align: center;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding-right: 10px;
   transition: color 0.3s;
 }
@@ -78,7 +79,7 @@
 
 
 /* Mobile view */
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .menu-toggle {
     display: block;
   }
@@ -101,3 +102,5 @@
     display: flex;
   }
 }
+
+

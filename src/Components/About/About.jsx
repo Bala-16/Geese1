@@ -1,30 +1,6 @@
 import React, { useState, useRef } from "react";
 import "./About.css";
-import { motion, useInView } from "framer-motion";
-import NK from "../../assets/NK.png";
-import MBK from "../../assets/img/MBK.png";
-import BN from "../../assets/img/BN.png";
-import SS from "../../assets/img/SS.png";
-import SSV from "../../assets/img/SSV.png";
 
-const ProfileCard = ({ img, title, content }) => {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true });
-
-  return (
-    <motion.div
-      ref={ref}
-      className="profile-card"
-      initial={{ opacity: 0, y: 30 }}
-      animate={inView ? { opacity: 1, y: 0 } : {}}
-      transition={{ duration: 0.6, ease: "easeOut" }}
-    >
-      {img && <img src={img} alt={title} className="profile-img" />}
-      <h3>{title}</h3>
-      <p>{content}</p>
-    </motion.div>
-  );
-};
 
 const About = () => {
   // why geese//
@@ -85,78 +61,7 @@ const About = () => {
 
   return (
     <>
-      <section className="team-section">
-        <div className="team-content">
-          <div className="team-header">
-            <h2 className="team-title">
-              OUR <span>TEAM</span>
-            </h2>
-          </div>
-        </div>
-      </section>
-
-      {/* <div className="full"></div>
-      <br /> */}
-
-      {/* PROFILE CARDS */}
-      <div className="qualifications-wrapper">
-        <div className="qualification-row">
-          <ProfileCard
-            img={MBK}
-            title="About Muruga Barathikannan"
-            content={`Certified Happiness Coach by Berkeley Institute of Wellbeing, California
-Certified in Sports Psychology by Rajasthan Royals (IPL)
-Certified NLP Practitioner and Life Coach
-Certified in Psychometrics, CBT, Career Counseling`}
-          />
-          <ProfileCard
-            img={NK}
-            title="About NandhaKumar"
-            content={`M.E in Anna University
-MBA (HR & Marketing), MBA (Retail Management)
-Executive PG Diploma in TISS
-Certified NLP Master Practitioner, Sales Excellence Coach
-Certified POSH Enabler, C.E.O Coach, MSME Trainer`}
-          />
-        </div>
-
-        <div className="qualification-row">
-          <ProfileCard
-            img={BN}
-            title="About Bageerathi Nandhakumar"
-            content={`Psychological Assessment Specialist
-Competency Assessment, Reflective Practitioner
-One-to-One Specialist
-Certified POSH Enabler`}
-          />
-          <ProfileCard
-            img={SS}
-            title="About Sasikumar Subramanian"
-            content={`Certified National Trainer - JCI University
-Activity-Based & Outbound Trainer
-Faculty for Management Colleges
-Conducted FDPs for 1000+ Teachers`}
-          />
-        </div>
-
-        <div className="qualification-row">
-          <ProfileCard
-            img={SSV}
-            title="About Vetri Vidiyal Srinivasan"
-            content={`Chartered Accountant
-Writer and TV Fame
-Financial Advisor to 100+ Entrepreneurs`}
-          />
-          {/* <ProfileCard
-            img={null}
-            title="About Sasikumar Subramanian"
-            content={`Certified National Trainer - JCI University
-Activity-Based & Outbound Trainer
-Faculty for Management Colleges
-Conducted FDPs for 1000+ Teachers`}
-          /> */}
-        </div>
-      </div>
+     
 
       {/* why geese */}
       <div>

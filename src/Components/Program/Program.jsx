@@ -17,23 +17,24 @@ const Programs = () => {
           <img src={SMS} alt="SMS" className="logo-img" />
           {/* <img src={meme} alt="MEME" className="logo-img" /> */}
         </div>
-
+<div className="center-box">
         <p className="description-1">
           Specialized Public Training Program <br />
           for Business People which has <br />
           crossed 1000 participants all over Tamil Nadu.
-        </p>
+        </p></div>
       </div>
 
-      <div className="right-section">
-        <h2 className="sub-title">OUR <span>PUBLICATIONS</span></h2>
+ 
+    </div><br/>
+         <div className="right-section">
+        <h2 className="sub-title">OUR PUBLICATIONS</h2>
         <div className="books">
           <img src={BG2} alt="SMS Book" className="book-img" />
           {/* <img src={book2} alt="UTHRA Book" className="book-img" /> */}
         </div>
       </div>
-    </div>
-    <br/>
+    <br/><br/>
     
     </>
    
