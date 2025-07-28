@@ -1,5 +1,4 @@
-/* src/components/About/About.css */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 
 :root {
   --e-global-color-accent: #071e23;
@@ -356,7 +355,7 @@
 }
 
 .benefit-item {
-  font-family: "Bebas Neue", sans-serif;
+  /* font-family: "Bebas Neue", sans-serif; */
   background: #ffd702;
   padding: 15px 20px;
   margin-bottom: 15px;
