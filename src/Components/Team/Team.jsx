@@ -146,6 +146,7 @@ Certified POSH Enabler, C.E.O Coach, MSME Trainer`}
           <ProfileCard
             img={BN}
             title=" Bageerathi Nandhakumar"
+          
             content={`Psychological Assessment Specialist
 Competency Assessment, Reflective Practitioner
 One-to-One Specialist

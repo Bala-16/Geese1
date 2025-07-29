@@ -8,11 +8,12 @@
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 40px;
-}
-
-.blog-heading span {
   color: #ffd702;
 }
+
+/* .blog-heading span {
+  color: #ffd702;
+} */
 
 .blog-cards {
   display: flex;
