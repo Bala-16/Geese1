@@ -31,43 +31,6 @@ const Footer = () => {
           <p>Empowering People. Enabling Growth.</p>
         </div>
 
-        <div className="footer-links">
-          <div className="footer-column">
-            <h4>Corporate</h4>
-            <ul>
-              <li>Nike</li>
-              <li>Hyundai</li>
-              <li>Royal Enfield</li>
-              <li>GE</li>
-            </ul>
-          </div>
-          <div className="footer-column">
-            <h4>Associations</h4>
-            <ul>
-              <li>BNI</li>
-              <li>JCI</li>
-              <li>Rotary</li>
-              <li>TAI</li>
-            </ul>
-          </div>
-          <div className="footer-column">
-            <h4>Universities</h4>
-            <ul>
-              <li>IIM</li>
-              <li>NIT</li>
-              <li>AN University</li>
-              <li>AREK</li>
-            </ul>
-          </div>
-          <div className="footer-column">
-            <h4>Programs</h4>
-            <ul>
-              <li>UTURN</li>
-              <li>SMS</li>
-              <li>MEME</li>
-            </ul>
-          </div>
-        </div>
       </div>
 
       {/* Message Section */}

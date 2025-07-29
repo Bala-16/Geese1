@@ -70,7 +70,7 @@ const About = () => {
             <div className="whoami-content">
               <div className="text-block">
                 <h2 className="whoami-title">
-                  Why <span>- GEESE?</span>
+                  The Smarter Choice
                   {/* <span className="button-block">
                   <button className="whoami-button">Learn More</button>
                 </span> */}

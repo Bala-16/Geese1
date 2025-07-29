@@ -116,14 +116,15 @@ const Team = () => {
         <div className="qualification-row">
           <ProfileCard
             img={SSV}
-            title="About Vetri Vidiyal Srinivasan"
+            
+            title= ' "Vetri Vidiyal" Srinivasan'
             content={`Chartered Accountant
 Writer and TV Fame
 Financial Advisor to 100+ Entrepreneurs`}
           />
           <ProfileCard
             img={MBK}
-            title="About Muruga Barathikannan"
+            title=" Muruga Barathikannan"
             content={`Certified Happiness Coach by Berkeley Institute of Wellbeing, California
 Certified in Sports Psychology by Rajasthan Royals (IPL)
 Certified NLP Practitioner and Life Coach
@@ -135,7 +136,7 @@ Certified in Psychometrics, CBT, Career Counseling`}
         <div className="qualification-row">
           <ProfileCard
             img={NK}
-            title="About NandhaKumar"
+            title=" NandhaKumar"
             content={`M.E in Anna University
 MBA (HR & Marketing), MBA (Retail Management)
 Executive PG Diploma in TISS
@@ -144,7 +145,7 @@ Certified POSH Enabler, C.E.O Coach, MSME Trainer`}
           />
           <ProfileCard
             img={BN}
-            title="About Bageerathi Nandhakumar"
+            title=" Bageerathi Nandhakumar"
             content={`Psychological Assessment Specialist
 Competency Assessment, Reflective Practitioner
 One-to-One Specialist
@@ -152,14 +153,25 @@ Certified POSH Enabler`}
           />
       
         </div>
+         <div className="qualification-row">
  <ProfileCard
             img={SS}
-            title="About Sasikumar Subramanian"
+            title=" Sasikumar Subramanian"
             content={`Certified National Trainer - JCI University
 Activity-Based & Outbound Trainer
 Faculty for Management Colleges
 Conducted FDPs for 1000+ Teachers`}
           />
+           <ProfileCard
+            // img={SS}
+            title="Arun kumar"
+//             content={`Certified National Trainer - JCI University
+// Activity-Based & Outbound Trainer
+// Faculty for Management Colleges
+// Conducted FDPs for 1000+ Teachers`}
+          />
+          </div>
+          
         
       </div>
    

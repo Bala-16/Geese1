@@ -1,5 +1,3 @@
-
-
 :root {
   --e-global-color-accent: #071e23;
   --e-global-color-primary: #ffd702;
@@ -203,13 +201,11 @@
   margin-top: 10px;
 }
 
-
-
 .who-we-are {
   width: 100%;
-  min-height: 10vh; 
+  min-height: 10vh;
   margin-top: 10px;
-  background-color: darkgrey; 
+  background-color: darkgrey;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -336,8 +332,6 @@
   background-image: url("../../assets/img/cornerBG1.png");
   background-repeat: no-repeat;
   background-size: cover;
-
- 
 }
 
 /* .whychoose-heading {
@@ -421,28 +415,23 @@
 
 /* src/components/Demo.css */
 
-
-
 .impact-container {
- 
   padding: 60px 20px;
   text-align: center;
   max-width: 1200px;
   margin: auto;
-  font-family: "Segoe UI", sans-serif;
 }
 
 .impact-heading {
-  font-family: "Bebas Neue", sans-serif;
   background-color: #15416e;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 3.5rem;
-  color: #fff;
+  color: #ffd702;
   margin-bottom: 40px;
 }
-.impact-heading span{
+/* .impact-heading span{
   color: #ffd702;
-}
+} */
 
 .impact-grid {
   display: grid;
@@ -470,7 +459,6 @@
 }
 
 .impact-text {
-  
   font-family: "Bebas Neue", sans-serif;
   font-size: 2rem;
   font-weight: 500;

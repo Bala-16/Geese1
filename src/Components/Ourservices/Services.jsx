@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import './Services.css'
+import "./Services.css";
 import { motion, useInView } from "framer-motion";
 import CountUp from "react-countup"; // Make sure you've installed this
 
@@ -7,8 +7,8 @@ const stats = [
   { number: 12, suffix: "+", label: "Years of Experience" },
   { number: 50, suffix: "+", label: "Corporates Empowered" },
   { number: 500000, suffix: "+", label: "Employees Shaped" },
-  { number: 5000, suffix: "+", label: "Our Trained Professionals" },
-  { number: 150, suffix: "+", label: "Our Mentor" },
+  { number: 5000, suffix: "+", label: "Trained Professionals" },
+
   { number: 150, suffix: "+", label: "CEO's" },
 ];
 
@@ -25,9 +25,7 @@ const Services = () => {
         <section className="whoami-section">
           <div className="whoami-content">
             <div className="text-block">
-              <h2 className="whoami-title">
-                What we do ?, <span>Our action on your organiztion</span>
-              </h2>
+              <h2 className="whoami-title">Areas of Our Expertise</h2>
             </div>
           </div>
         </section>
@@ -45,13 +43,11 @@ const Services = () => {
           >
             <h3>Training</h3>
             <ul>
-              <li>HR Analytics</li>
-              <li>Strategic Talent Management</li>
-              <li>Mergers and Acquisitions (M&A) HR Integration</li>
-              <li>Diversity, Equity, and Inclusion (DE&I) Initiatives</li>
-              <li>Employee Relations and Conflict Resolution</li>
-              <li>HR change management</li>
-              <li>Customer Delight</li>
+            <li>Need based Training </li>
+            <li>Out Bound Training </li>
+            <li>On Job Training </li>
+            <li>Class Room Training </li>
+            <li>Shadowing </li>
             </ul>
           </motion.div>
 
@@ -67,7 +63,7 @@ const Services = () => {
               CEO<span>'s</span> Coaching
             </h4>
             <ul>
-              <li>1-2-1 counseling</li>
+              <li>"1 ON 1" Consulting</li>
               <li>Strategic planning</li>
               <li>Assessments</li>
             </ul>
@@ -88,14 +84,13 @@ const Services = () => {
           >
             <h3>Consulting</h3>
             <ul>
-              <li>Strategic Guidance</li>
-              <li>Operational Efficiency</li>
-              <li>Talent Management</li>
-              <li>Financial Expertise</li>
-              <li>Technological Innovation</li>
-              <li>Marketing and Sales Support</li>
-              <li>Organizational Change Management</li>
-              <li>Risk Management</li>
+              <li>HR Analytics</li>
+              <li>Strategic Talent Management</li>
+              <li>Mergers and Acquisitions (M&A) HR Integration</li>
+              <li>Diversity, Equity, and Inclusion (DE&I) Initiatives</li>
+              <li>Employee Relations and Conflict Resolution</li>
+              <li>HR change management</li>
+              <li>Customer Delight</li>
             </ul>
           </motion.div>
 
@@ -123,7 +118,7 @@ const Services = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
           >
-            <h3>Digital Marketing</h3>
+            <h3> Marketing</h3>
             <ul>
               <li>Social Media Strategy & Management</li>
               <li>Search Engine Optimization (SEO)</li>

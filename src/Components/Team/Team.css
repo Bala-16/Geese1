@@ -21,14 +21,14 @@
 .team-title {
   font-size: 4rem;
   font-weight: bold;
-  color: #15416e;
+  color: #000;
 
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 .team-title span {
-  color: #000;
+  color: #fff;
 }
 @media (max-width: 768px) {
   .team-title {
@@ -109,11 +109,11 @@
   background-color: darkgray;
   font-size: 2.5rem;
   margin-bottom: 40px;
-  color: #fff;
+  color: #ffd702;
 }
-.trainer-heading span {
+/* .trainer-heading span {
 color: #ffd702;
-}
+} */
 
 .trainer-row {
   display: flex;

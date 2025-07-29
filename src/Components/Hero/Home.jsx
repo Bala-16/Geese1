@@ -39,10 +39,10 @@ import Rotary from "../../assets/Association/Rotary.png";
 import TAI from "../../assets/Association/TAI.png";
 import TNHA from "../../assets/Association/TNHA.png";
 
-import AN from "../../assets/University/AN.jpg"
-import AREK from "../../assets/University/AREK.png"
-import IIM from "../../assets/University/IIM.jpg"
-import NIT from "../../assets/University/NIT.png"
+import AN from "../../assets/University/AN.jpg";
+import AREK from "../../assets/University/AREK.png";
+import IIM from "../../assets/University/IIM.jpg";
+import NIT from "../../assets/University/NIT.png";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -70,19 +70,16 @@ const Home = () => {
     },
   ];
 
-
-
   return (
     <>
       <div className="home-container">
         <div className="home-left">
           <h1 className="animate-up title-1">
-            <span>#</span>Empowering People. Enabling Growth.
+            <span>#</span>Strategic Solutions, Lasting Impact
           </h1>
           <p className="animate-up subtitle">
-            GEESE HR & Business Solutions, A Certified Management for
-            Consultant, Corporates, Retail HR Shops, and Industries. Cousunn
-            Consulting Company Focusing in & Business Solutions
+            Empowering organizations through strategic HR and business solutions
+            that drive growth and performance
           </p>
           <button className="animated-yellow-btn">
             3-Mins Video About Business Trends"A Wise Move Pawn to King"
@@ -106,21 +103,28 @@ const Home = () => {
         <div className="logo-scroll-track">
           {[
             Nike,
-            Hyundai,Royal,
+            Hyundai,
+            Royal,
             HL,
             Apollo,
             Converse,
             crocs,
-            Decathlon,GE,
-            Navin,KB,
+            Decathlon,
+            GE,
+            Navin,
+            KB,
             Nordex,
             Sachin,
             salomon,
             SBT,
-            Tanishq,km,
-            TCCL,MCP,
+            Tanishq,
+            km,
+            TCCL,
+            MCP,
             Thanigai,
-            Orange,Focus,Murugappa,
+            Orange,
+            Focus,
+            Murugappa,
           ].map((logo, index) => (
             <figure key={index} className="logo-figure">
               <img src={logo} alt={`Logo ${index + 1}`} />
@@ -130,12 +134,11 @@ const Home = () => {
         </div>
       </div>
 
-
-      <div className="who-we-are">
-        <section className="whoami-section">
-          <div className="whoami-content">
-            <div className="text-block">
-              <h2 className="whoami-title">
+      <div className="who-we-are-1">
+        <section className="whoami-section-1">
+          <div className="whoami-content-1">
+            <div className="text-block-1">
+              <h2 className="whoami-title-1">
                 <span>S</span>trategy <span>S</span>tart <span>- Here</span>
                 {/* <span className="button-block">
                   <button className="whoami-button">Learn More</button>
@@ -216,13 +219,13 @@ const Home = () => {
       <div className="corporate">{/* <h1>Corporate clients</h1> */}</div>
       <div className="logo-scroll-container">
         <div className="logo-scroll-track">
-          {[
-            BNI,JCI,LI,Rotary,TAI,TNHA,AN,AREK,IIM,NIT
-          ].map((logo, index) => (
-            <figure key={index} className="logo-figure">
-              <img src={logo} alt={`Logo ${index + 1}`} />
-            </figure>
-          ))}
+          {[BNI, JCI, LI, Rotary, TAI, TNHA, AN, AREK, IIM, NIT].map(
+            (logo, index) => (
+              <figure key={index} className="logo-figure">
+                <img src={logo} alt={`Logo ${index + 1}`} />
+              </figure>
+            )
+          )}
           {/* <div className="full-underline-1"></div> */}
         </div>
       </div>
