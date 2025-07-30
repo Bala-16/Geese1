@@ -75,11 +75,11 @@ const Home = () => {
       <div className="home-container">
         <div className="home-left">
           <h1 className="animate-up title-1">
-            <span>#</span>Strategic Solutions, Lasting Impact
+            <span>#</span>Strategic Solutions. Lasting Impact.
           </h1>
           <p className="animate-up subtitle">
             Empowering organizations through strategic HR and business solutions
-            that drive growth and performance
+            that drive growth and performance.
           </p>
           <button className="animated-yellow-btn">
             3-Mins Video About Business Trends"A Wise Move Pawn to King"
@@ -139,7 +139,7 @@ const Home = () => {
           <div className="whoami-content-1">
             <div className="text-block-1">
               <h2 className="whoami-title-1">
-                <span>S</span>trategy <span>S</span>tart <span>- Here</span>
+                <span>S</span>trategy <span>S</span>tart <span> Here</span>
                 {/* <span className="button-block">
                   <button className="whoami-button">Learn More</button>
                 </span> */}

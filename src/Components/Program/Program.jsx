@@ -4,6 +4,7 @@ import uturn from "../../assets/img/uturn.jpg";
 import SMS from "../../assets/img/SMS.png"; // Add SMS logo
 // import meme from "../../assets/img/meme.jpg"; // Add MEME logo
 import BG2 from '../../assets/img/BG2.jpg'
+import MEME from '../../assets/img/MEME.png'
 // import book2 from "../../assets/img/book_uthra.jpg"; // Add Book 2 image
 
 const Programs = () => {
@@ -15,15 +16,17 @@ const Programs = () => {
         <div className="program-logos">
           <img src={uturn} alt="UTURN" className="logo-img" />
           <img src={SMS} alt="SMS" className="logo-img" />
+           <img src={MEME} alt="SMS" className="logo-img" />
           {/* <img src={meme} alt="MEME" className="logo-img" /> */}
         </div>
 <div className="center-box">
         <p className="description-1">
-          Specialized Public Training Program <br />
-          for Business People which has <br />
+          Specialized Public Training Program 
+          for Business People which has 
           crossed 1000 participants all over Tamil Nadu.
         </p></div>
       </div>
+      
 
  
     </div><br/>

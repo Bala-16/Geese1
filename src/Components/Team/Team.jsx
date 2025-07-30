@@ -151,7 +151,7 @@ Certified in Psychometrics, CBT, Career Counseling`}
         <div className="qualification-row">
           <ProfileCard
             img={NK}
-            title=" NandhaKumar"
+            title=" NandaKumar"
             content={`Business Consultant
 MBA (HR & Marketing), MBA (Retail Management)
 Executive PG Diploma in TISS
@@ -160,7 +160,7 @@ Certified POSH Enabler, C.E.O Coach, MSME Trainer`}
           />
           <ProfileCard
             img={BN}
-            title=" Bageerathi Nandhakumar"
+            title=" Bageerathi Nandakumar"
             content={`Psychologist
 Competency Assessment, Reflective Practitioner
 One-to-One Specialist

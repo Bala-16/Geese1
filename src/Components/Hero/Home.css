@@ -444,7 +444,7 @@
   width: 100%;
   min-height: 10vh; 
   margin-top: 10px;
-  background-color: darkgrey; 
+  background-color: #15416e; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -470,7 +470,7 @@
 
 .whoami-title-1 {
   font-size: 3.5rem;
-  color: #fff;
+  color: #ffd702;
   margin: 0;
   font-weight: bold;
 }
