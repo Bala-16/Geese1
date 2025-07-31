@@ -12,6 +12,7 @@ import T7 from "../../assets/img/trainer/T7.png";
 import T8 from "../../assets/img/trainer/T8.png";
 import T9 from "../../assets/img/trainer/T9.png";
 import T10 from "../../assets/img/trainer/T10.png";
+import T11 from "../../assets/img/trainer/T11.png";
 import NK from "../../assets/NK.png";
 import MBK from "../../assets/img/MBK.png";
 import BN from "../../assets/img/BN.png";
@@ -50,64 +51,73 @@ const ProfileCard = ({ img, title, content }) => {
   );
 };
 const trainers = [
-  {
-    img: T1,
-    name: "Lion.R.Saravanan",
-    role: "Motivational Trainer & Speaker",
-    // bio: "MBA, M.E, TISS, NLP Master Practitioner, POSH Enabler.",
+   {
+    img: T4,
+    name: "Mayavaram Sivaraman charan",
+    role: " Training Need analyst ",
+    // bio: "15year Exprience ",
   },
+ 
   {
     img: T2,
     name: "Vijaymithra",
-    role: "20+ year Experience",
-    // bio: "Certified NLP Practitioner, Sports Psychologist, CBT Trainer.",
+    // role: "20+ year Experience",
+    bio: "Training Consultant.",
   },
   {
     img: T3,
     name: "Karur KVR",
     // role: "Psychological Specialist",
-    // bio: "POSH Enabler, Reflective Practitioner, One-to-One Expert.",
+    bio: "HR and Organisational Development Coach.",
   },
-  {
-    img: T4,
-    name: "Mayavaram Sivaraman charan",
-    role: "Providing Need Based Training ",
-    bio: "15year Exprience ",
+   {
+    img: T1,
+    name: "Lion.R.Saravanan",
+    role: "Motivational Trainer & Speaker",
+    // bio: "MBA, M.E, TISS, NLP Master Practitioner, POSH Enabler.",
   },
+ 
   {
     img: T5,
     name: "Kamalambal R ",
     // role: "Psychological Specialist",
-    bio: "20 years experience",
-  },
-  {
-    img: T6,
-    name: "Jahir",
-    role: "Leadership coach ",
-    bio: "7 years experience.",
+    bio: "Soft skills and POSH enabler",
   },
   {
     img: T7,
     name: "Jc.Rtn.S.AthiNarayanan.,",
     // role: "Psychological Specialist",
-    // bio: "POSH Enabler, Reflective Practitioner, One-to-One Expert.",
+    bio: "Skill Development Trainer.",
   },
+  {
+    img: T6,
+    name: "Jahir",
+    role: "Leadership coach ",
+    // bio: "7 years experience.",
+  },
+  
   {
     img: T8,
     name: "KUMARESAN DHARMASEELAN ",
     role: "OBT",
-    bio: "18 Years.",
+    // bio: "18 Years.",
   },
   {
     img: T9,
     name: "A. Maria Shajahan",
-    role: "Sales & Marketing",
-    bio: "5 years.",
+    role: "Sales & Marketing Trainer",
+    // bio: "5 years.",
   },
   {
     img: T10,
     name: "S. Johnson",
     role: "Game Specialist",
+    // bio: "POSH Enabler, Reflective Practitioner, One-to-One Expert.",
+  },
+    {
+    img: T11,
+    name: "P.Thanikai Vel Pandian",
+    role: "Business and Leadership Coach",
     // bio: "POSH Enabler, Reflective Practitioner, One-to-One Expert.",
   },
 ];
@@ -135,16 +145,16 @@ const Team = () => {
             img={SSV}
             title=' "Vetri Vidiyal" Srinivasan'
             content={`Financial Consultant
-Writer and TV Fame
-Financial Advisor to 100+ Entrepreneurs`}
+Writer and TV Fame.
+Financial Advisor to 100+ Entrepreneurs.`}
           />
           <ProfileCard
             img={MBK}
-            title=" Muruga Barathikannan"
+            title=" Muruga Barathi kannan"
             content={`Leadership Coach
-Certified in Sports Psychology by Rajasthan Royals (IPL)
-Certified NLP Practitioner and Life Coach
-Certified in Psychometrics, CBT, Career Counseling`}
+Certified in Sports Psychology by Rajasthan Royals(IPL).
+Certified NLP Practitioner and Life Coach.
+Certified in Psychometrics, CBT, Career Counseling.`}
           />
         </div>
 
@@ -153,18 +163,18 @@ Certified in Psychometrics, CBT, Career Counseling`}
             img={NK}
             title=" NandaKumar"
             content={`Business Consultant
-MBA (HR & Marketing), MBA (Retail Management)
-Executive PG Diploma in TISS
-Certified NLP Master Practitioner, Sales Excellence Coach
-Certified POSH Enabler, C.E.O Coach, MSME Trainer`}
+Certified NLP Master Practitioner. 
+Sales Excellence Coach.
+Certified POSH Enabler.
+ C.E.O Coach, MSME Trainer.`}
           />
           <ProfileCard
             img={BN}
             title=" Bageerathi Nandakumar"
             content={`Psychologist
-Competency Assessment, Reflective Practitioner
-One-to-One Specialist
-Certified POSH Enabler`}
+Competency Assessment, Reflective Practitioner.
+One-to-One Specialist.
+Certified POSH Enabler.`}
           />
         </div>
         <div className="qualification-row">
@@ -172,9 +182,9 @@ Certified POSH Enabler`}
             img={SS}
             title=" Sasikumar Subramanian"
             content={`Business Analyst
-Activity-Based & Outbound Trainer
-Faculty for Management Colleges
-Conducted FDPs for 1000+ Teachers`}
+Activity-Based & Outbound Trainer.
+Faculty for Management Colleges.
+Conducted FDPs for 1000+ Teachers.`}
           />
           <ProfileCard
             // img={SS}

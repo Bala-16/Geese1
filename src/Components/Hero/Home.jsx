@@ -180,9 +180,9 @@ const Home = () => {
         </div>
 
         {/* Right side - Image */}
-        <div className="nadhakumar-image">
-          <img src={geese1} alt="geese" />
-          <img src={geese2} alt="geese" />
+        {/* <div className="nadhakumar-image">
+           <img src={geese1} alt="geese" />
+          <img src={geese2} alt="geese" /> 
           <div className="unique-section">
             <button onClick={toggleSection} className="toggle-btn">
               {isOpen ? "Hide ▲" : "What Makes Us Unique? ▼"}
@@ -205,14 +205,31 @@ const Home = () => {
                 <li>✅ Proven Results Across Industries</li>
               </ul>
 
-              {/* Card Box */}
+             
               <div className="unique-card">
                 We blend psychology, strategy, and simplicity to craft HR and
                 business solutions that work — and last.
               </div>
+
             </div>
           </div>
-        </div>
+        </div> */}
+        <div className="unique-card">
+  <h2>What Makes Us Unique?</h2>
+  <ul>
+    <li>✅ Customized Training Modules</li>
+    <li>✅ Data-Driven HR Strategies</li>
+    <li>✅ Human-Centered Business Solutions</li>
+    <li>✅ Proven Results Across Industries</li>
+  </ul>
+ <div className="para-card">
+  <p>
+    We blend psychology, strategy, and simplicity to craft HR and business
+    solutions that work — and last.
+  </p>
+</div>
+</div>
+
       </section>
 
       <div className="full-underline-2"></div>

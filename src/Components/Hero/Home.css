@@ -265,7 +265,7 @@
   }
 }
 
-/* Layout Container */
+
 .nadhakumar-container {
   display: flex;
   flex-wrap: wrap;
@@ -275,7 +275,7 @@
   gap: 20px;
 }
 
-/* Text Content */
+
 .nadhakumar-text {
   background-image: url("../../assets/img/cornerBG1.png");
   background-repeat: no-repeat;
@@ -301,25 +301,26 @@
 }
 
 .nadhakumar-text p {
+  font-size: 1.5rem;
   line-height: 1.6;
   margin-bottom: 15px;
 }
 
-/* Image Block */
-.nadhakumar-image {
+
+/* .nadhakumar-image {
   flex: 1 1 400px;
   justify-content: center;
   align-items: center;
   padding: 20px;
-}
+} 
 
 .nadhakumar-image img {
   max-width: 100%;
   height: auto;
-}
+} */
 
-/* Toggle Button */
-.toggle-btn {
+
+/* .toggle-btn {
   margin-top: 20px;
   
   background-color: #ffd702;
@@ -336,9 +337,9 @@
 
 .toggle-btn:hover {
   background-color: #ffd702;
-}
+} */
 
-/* Collapsible Content */
+/* 
 .unique-content {
   overflow: hidden;
   transition: max-height 0.6s ease;
@@ -351,7 +352,7 @@
 
 .unique-content.open {
   padding: 5px 10px;
-}
+} 
 
 .unique-content ul {
   list-style: none;
@@ -362,19 +363,19 @@
 .unique-content li {
   margin: 8px 0;
   font-size: 1rem;
-}
+} */
 
-/* Card Style */
-.unique-card {
+
+/* .unique-card {
   background-color: lightgrey;
   border: 1px solid #ccc;
-  border-left: 5px solid #ffd702;
+  border-left: 5px solid #db3d11;
   padding: 5px;
   border-radius: 10px;
   font-size: 1rem;
   margin-top: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-}
+} */
 @media (max-width: 768px) {
   .nadhakumar-container {
     flex-direction: column;
@@ -396,11 +397,11 @@
   }
 
   .nadhakumar-text p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     text-align: left;
   }
 
-  .toggle-btn {
+  /* .toggle-btn {
     font-size: 0.95rem;
     padding: 10px 16px;
     max-width: 100%;
@@ -409,7 +410,7 @@
   .unique-card {
     font-size: 0.95rem;
     padding: 10px;
-  }
+  } */
 }
 
 
@@ -519,5 +520,133 @@
 
   .whoami-button {
     width: 100%;
+  }
+}
+
+
+
+
+
+
+/* what makes us unique */
+
+.unique-card {
+  background-image: url('../../assets/img/geese4.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  /* background-size: 200px; */
+  background-color: #ffffff;
+
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 3rem auto ;
+  margin-bottom: 10rem;
+  /* font-family: 'Segoe UI', sans-serif; */
+  transition: all 0.3s ease-in-out;
+}
+
+.unique-card h2 {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  color: #000;
+  text-align: center;
+}
+
+.unique-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.unique-card ul li {
+  margin-bottom: 0.8rem;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.para-card {
+  background-image: url('../../assets/img/starBG.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background: linear-gradient(135deg, #f0f4ff, #e2ecff); */
+  padding: 3rem;
+  border-left: 6px solid #ffd702;
+  border-radius: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 5rem auto;
+  /* font-family: 'Segoe UI', sans-serif; */
+  transition: all 0.3s ease-in-out;
+}
+
+.para-card p {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #000;
+  text-align: center;
+}
+
+/* ✅ Responsive */
+@media (max-width: 768px) {
+  .para-card {
+    padding: 1.5rem;
+  }
+
+
+  .para-card p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .para-card {
+    padding: 1rem;
+    border-left-width: 4px;
+  }
+
+  .para-card p {
+    font-size: 0.95rem;
+  }
+}
+
+
+/* ✅ Responsive Styles */
+@media (max-width: 768px) {
+  .unique-card {
+    padding: 1.5rem;
+  }
+
+  .unique-card h2 {
+    font-size: 1.6rem;
+  }
+
+  .unique-card ul li {
+    font-size: 1rem;
+  }
+
+  .unique-card p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .unique-card {
+    padding: 1rem;
+    border-radius: 0.8rem;
+  }
+
+  .unique-card h2 {
+    font-size: 1.4rem;
+  }
+
+  .unique-card ul li {
+    font-size: 0.95rem;
+  }
+
+  .unique-card p {
+    font-size: 0.9rem;
   }
 }

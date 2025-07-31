@@ -6,7 +6,7 @@ import CountUp from "react-countup"; // Make sure you've installed this
 const stats = [
   { number: 12, suffix: "+", label: "Years of Experience" },
   { number: 50, suffix: "+", label: "Corporates Empowered" },
-  { number: 500000, suffix: "+", label: "Employees Shaped" },
+  { number: 400000, suffix: "+", label: "Employees Shaped" },
   { number: 5000, suffix: "+", label: "Trained Professionals" },
 
   { number: 150, suffix: "+", label: "CEO's" },
@@ -43,11 +43,18 @@ const Services = () => {
           >
             <h3>Training</h3>
             <ul>
-            <li>Need based Training </li>
+              {/* <li>Need based Training </li>
             <li>Out Bound Training </li>
             <li>On Job Training </li>
             <li>Class Room Training </li>
-            <li>Shadowing </li>
+            <li>Shadowing </li> */}
+              <li> Business & Strategy training</li>
+              <li> Leadership & Management training </li>
+              <li> Operations & Process Improvement </li>
+              <li> Finance & Risk management </li>
+              <li> HR & People Development </li>
+              <li> Digital & Technology </li>
+              <li>Sales & Marketing training</li>
             </ul>
           </motion.div>
 
@@ -63,7 +70,7 @@ const Services = () => {
               CEO<span>'s</span> Coaching
             </h4>
             <ul>
-              <li>"1 ON 1" Consulting</li>
+              <li>"One-on-One" Consulting</li>
               <li>Strategic planning</li>
               <li>Assessments</li>
             </ul>
@@ -102,8 +109,8 @@ const Services = () => {
           >
             <h3>Recruitment</h3>
             <ul>
-              <li>Onboarding</li>
-              <li>Induction</li>
+              <li>Induction/Onboarding Training</li>
+              <li></li>
               <li>Workforce Planning</li>
               <li>Strategic Sourcing</li>
               <li>Employer Branding</li>
