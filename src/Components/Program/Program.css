@@ -17,14 +17,19 @@
 }
 
 .title {
-  font-family: "Bebas Neue", sans-serif;
+  background: linear-gradient(to right, #ffffff 42%, #ffd702 50%);
+  box-sizing: border-box;
   color: #000;
   font-size: 4.5rem;
   font-weight: 800;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 10px;
+  padding: 10px 15px;
+  /* border-radius: 8px; */
+  line-height: 1.2;
 }
 .title span {
+  left: 20px;
   color: #fff;
   /* text-decoration: underline; */
 }
@@ -55,7 +60,7 @@
   font-size: 2rem;
 
   line-height: 1.5;
-  background-color: #fff7c2; /* light yellow highlight */
+  background-color: #fff7c2; 
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -70,10 +75,12 @@
 }
 
 .sub-title {
-  /* font-family: "Bebas Neue", sans-serif; */
+  background-color: #15416e;
+  color: #ffd702;
   font-size: 3.5rem;
 
   font-weight: 700;
+  padding: 10px;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
@@ -121,7 +128,7 @@
   }
 
   .title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .description-1 {
     max-width: 50%;
@@ -130,5 +137,83 @@
   }
   .sub-title {
     font-size: 1.5rem;
+  }
+}
+
+
+
+.program-wrapper {
+  padding: 30px;
+}
+/* Wrapper for top 3 logos */
+.top-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+/* Individual block */
+.logo-block {
+  width: 450px;
+  max-width: 90%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Image: uniform size */
+.logo-img {
+  width: 100%;
+  height: 250px; /* Fixed height */
+  object-fit: contain;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+  margin-top: 10px;
+}
+
+/* Title: same height */
+.logo-title {
+  min-height: 20px;  /* Adjust to fit tallest title */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Bottom row */
+.bottom-row .full-width {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Secondary image */
+.secondary-img {
+
+  width: 900px;
+  /* border: 2px solid #ccc; */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .logo-block {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-block {
+    width: 100%;
+  }
+
+  .logo-title {
+    min-height: auto;
   }
 }

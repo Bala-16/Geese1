@@ -5,6 +5,7 @@ import "./Blog.css";
 // import blog3 from "../../assets/img/blog3.jpg";
 
 const blogPosts = [
+  
   {
     id: 1,
     // image: blog1,
@@ -33,6 +34,7 @@ const blogPosts = [
 
 const Blog = () => {
   return (
+    <>
     <section className="blog-section">
       <h2 className="blog-heading">
          <span>GEESE DESK</span>
@@ -53,6 +55,32 @@ const Blog = () => {
         ))}
       </div>
     </section>
+    <div className="subscribe-section">
+  <h3 className="subscribe-heading">Subscribe to GEESE Desk</h3>
+  <p className="subscribe-text">Get updates on our latest insights and success stories directly in your inbox.</p>
+  
+  <form className="subscribe-form" onSubmit={(e) => e.preventDefault()}>
+    <input 
+      type="text" 
+      placeholder="Your Name" 
+      className="subscribe-input" 
+      required 
+    />
+    <input 
+      type="email" 
+      placeholder="Your Email" 
+      className="subscribe-input" 
+      required 
+    />
+    <button 
+      type="submit" 
+      className="subscribe-button"
+    >
+      Subscribe
+    </button>
+  </form>
+</div>
+</>
   );
 };
 

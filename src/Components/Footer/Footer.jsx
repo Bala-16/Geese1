@@ -1,68 +1,82 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faFacebookF, faLinkedinIn, faYoutube } from '@fortawesome/free-brands-svg-icons';
-
+import { faInstagram, faFacebookF, faLinkedinIn, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import "./Footer.css";
-import logo from "../../assets/logo.png"; // Update with your logo path
-import Geese from '../../assets/img/Geese.png'
+import Geese from '../../assets/img/Geese.png';
+import wha from "../../assets/wha.png";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+// import { faPhone } from "@fortawesome/free-solid-svg-icons";
+
 const Footer = () => {
   return (
-    <footer className="footer-container">
-      {/* Top Highlight Section */}
-      <div className="footer-highlight">
-        {/* <img src={logo} alt="GEESE Logo" className="highlight-logo" /> */}
+<>
+       <div className="footer-highlight">
         <div className="highlight-social">
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-    <FontAwesomeIcon icon={faFacebookF} />
-  </a>
-  <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-    <FontAwesomeIcon icon={faInstagram} />
-  </a>
-  <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-    <FontAwesomeIcon icon={faLinkedinIn} />
-  </a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faFacebookF} />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faLinkedinIn} />
+          </a>
+          {/* <a href="https://wa.me/919994887194" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faWhatsapp} />
+          </a> */}
         </div>
+    
       </div>
+    <footer className="footer-container">
+
+      {/* Top Social Bar */}
+      
+   
 
       {/* Main Footer Content */}
       <div className="footer-top">
-        <div className="footer-logo">
-          <img src={Geese} alt="GEESE Logo" />
+        <div className="footer-logo-section">
+          <img src={Geese} alt="GEESE Logo" className="footer-logo-img" />
           <p>Empowering People. Enabling Growth.</p>
         </div>
 
+      <div className="footer-contact-section">
+      <h4>Contact Us</h4>
+
+      <p className="whatsapp-link">
+        {/* <span>WhatsApp: </span> */}
+        <a
+          href="https://wa.me/919994887194?text=Hello%2C%20I%20am%20interested%20in%20your%20training%20program.%20Please%20share%20more%20details."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={wha} alt="WhatsApp" className="whatsapp-icon" />
+          {/* <span className="whatsapp-number">9994887194</span> */}
+        </a>
+      </p>
+
+      <p>
+        <FontAwesomeIcon icon={faEnvelope} className="icon" />
+        <span style={{ marginLeft: "8px" }}>
+          <a href="mailto:geesehr@gmail.com">geesehr@gmail.com</a>
+        </span>
+      </p>
+
+      <p>
+        <FontAwesomeIcon icon={faPhone} className="icon" />
+        <span style={{ marginLeft: "8px" }}>9994887194, 9789449223</span>
+      </p>
+    </div>
       </div>
 
-      {/* Message Section */}
-      <div className="footer-message">
-        <p>Message us on</p>
-        <div className="footer-email-form">
-  <input
-    type="email"
-    placeholder="Enter your email"
-    className="email-input"
-  />
-  <button className="email-send-btn">Send Message</button>
-</div>
-
-        <div className="footer-social-icons">
-          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-facebook-f"></i>
-          </a>
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-instagram"></i>
-          </a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-linkedin-in"></i>
-          </a>
-        </div>
-      </div>
-
-      {/* Bottom Section */}
+      {/* Bottom */}
       <div className="footer-bottom">
         <p>© {new Date().getFullYear()} GEESE HR & Business Solutions. All Rights Reserved.</p>
       </div>
     </footer>
+
+    </>
   );
 };
 
