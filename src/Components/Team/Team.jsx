@@ -153,15 +153,15 @@ const Team = () => {
             img={SSV}
             title=' "Vetri Vidiyal" Srinivasan'
             content={`Financial Consultant
-Writer and TV Fame.
+Writer and TV Fame,
 Financial Advisor to 100+ Entrepreneurs.`}
           />
           <ProfileCard
             img={MBK}
             title=" Muruga Barathi kannan"
             content={`Leadership Coach
-Certified in Sports Psychology by Rajasthan Royals(IPL).
-Certified NLP Practitioner and Life Coach.
+Certified in Sports Psychology by Rajasthan Royals(IPL),
+Certified NLP Practitioner and Life Coach,
 Certified in Psychometrics, CBT, Career Counseling.`}
           />
         </div>
@@ -171,17 +171,17 @@ Certified in Psychometrics, CBT, Career Counseling.`}
             img={NK}
             title=" NandaKumar"
             content={`Business Consultant
-Certified NLP Master Practitioner. 
-Sales Excellence Coach.
-Certified POSH Enabler.
+Certified NLP Master Practitioner, 
+Sales Excellence Coach,
+Certified POSH Enabler,
  C.E.O Coach, MSME Trainer.`}
           />
           <ProfileCard
             img={BN}
             title=" Bageerathi Nandakumar"
             content={`Psychologist
-Competency Assessment, Reflective Practitioner.
-One-to-One Specialist.
+Competency Assessment, Reflective Practitioner,
+One-to-One Specialist,
 Certified POSH Enabler.`}
           />
         </div>
@@ -190,8 +190,8 @@ Certified POSH Enabler.`}
             img={SS}
             title=" Sasikumar Subramanian"
             content={`Business Analyst
-Certified National Trainer- JCI India.
-Certified DISC Coach.
+Certified National Trainer- JCI India,
+Certified DISC Coach,
 Expert in Data Driven Decision Making.`}
           />
           <ProfileCard
