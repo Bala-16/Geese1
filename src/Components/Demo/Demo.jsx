@@ -1,12 +1,12 @@
 import React from "react";
- // Replace with your WhatsApp image path
 import "./Demo.css";
 
-
-const Footer = () => {
+const Careers = () => {
   return (
-  
+    <>
+   
+    </>
   );
 };
 
-export default Footer;
+export default Careers;

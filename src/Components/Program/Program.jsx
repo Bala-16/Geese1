@@ -13,12 +13,12 @@ const Programs = () => {
   return (
     <>
       {" "}
-       <h1 className="title">
-            PUBLIC <span>PROGRAMS</span>
-          </h1>
+      
       <div className="programs-container">
         <div className="left-section">
-         
+          <h1 className="title">
+            PUBLIC <span>PROGRAMS</span>
+          </h1>
 <div className="program-wrapper">
   <div className="top-row">
     <div className="logo-block">

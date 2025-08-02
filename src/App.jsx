@@ -16,9 +16,7 @@ import Careers from "./Components/Careers/Careers";
 const App = () => {
   return (
     <div>
-      {/* <Home /> */}
-      {/* <About/> */}
-      {/* <Program/> */}
+    
       {/* <Demo/> */}
 
       <BrowserRouter>

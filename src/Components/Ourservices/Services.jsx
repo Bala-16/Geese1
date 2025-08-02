@@ -110,7 +110,7 @@ const Services = () => {
             <h3>Recruitment</h3>
             <ul>
               <li>Induction/Onboarding Training</li>
-              <li></li>
+
               <li>Workforce Planning</li>
               <li>Strategic Sourcing</li>
               <li>Employer Branding</li>

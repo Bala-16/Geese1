@@ -22,7 +22,7 @@ const About = () => {
         "Every organization is different. Our services are tailored to meet your exact needs, no matter your size or sector.",
     },
     {
-      title: "✔ Certified & Passionate(Trainers & Consultant)",
+      title: "✔ Certified & Passionate Trainers, Consultants and professionals",
       description:
         "Our team are not only certified but deeply passionate about helping teams and leaders grow.",
     },

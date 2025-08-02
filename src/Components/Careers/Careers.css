@@ -1,5 +1,173 @@
+.careers-section {
+  padding: 10px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* font-family: "Segoe UI", sans-serif; */
+  color: #222;
+  background-color: #fff;
+}
+
+.careers-heading {
+  background: #15416e;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #ffd702;
+}
+
+.careers-intro {
+  background-image: url("../../assets/img/cornerBG1.png");
+  background-size: 320px;
+  background-position:center ;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.section-title {
+  background-color: #15416e;
+  color: #ffd702;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10px 0px;
+  margin: 30px 0 20px;
+  text-align: center;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.benefit-card {
+  background-image: url("../../assets/img/starBG.png");
+  background-repeat: no-repeat;
+
+  /* background: #f9f9f9; */
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+}
+
+.benefit-emoji {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.benefit-card h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.benefit-card p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.role-list {
+  background-image: url("../../assets/img/cornerBG1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 800px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 40px;
+}
+
+.role-item {
+  background: #ffd702;
+  font-size: 1.2rem;
+  padding: 12px 18px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  /* cursor: pointer; */
+  border-left: 5px solid #15416e;
+  transition: background 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+.role-item:hover {
+  background-color: #fffbe7;
+}
+/* Add this at the bottom of your CSS */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.join-movement {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.location {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.closing-text {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #000;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .careers-heading {
+    font-size: 2.2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .benefit-card h4 {
+    font-size: 1.5rem;
+  }
+
+  .benefit-card p {
+    font-size: 1.1rem;
+  }
+
+  .closing-text {
+    font-size: 1rem;
+  }
+}
+
+
+
+
 .careers-container {
-  max-width: 600px;
+  /* background-image: url('../../assets/img/circle.png'); */
+  max-width: 700px;
   margin: 2rem auto;
   padding: 2rem;
   background: #f9fbff;
