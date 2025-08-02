@@ -13,6 +13,7 @@ import T8 from "../../assets/img/trainer/T8.png";
 import T9 from "../../assets/img/trainer/T9.png";
 import T10 from "../../assets/img/trainer/T10.png";
 import T11 from "../../assets/img/trainer/T11.png";
+import T12 from "../../assets/img/trainer/T12.png"
 import NK from "../../assets/NK.png";
 import MBK from "../../assets/img/MBK.png";
 import BN from "../../assets/img/BN.png";
@@ -66,20 +67,26 @@ const trainers = [
   },
   {
     img: T3,
-    name: "Karur KVR",
+    name: "KV. Rajeshkumar",
     // role: "Psychological Specialist",
     bio: "HR and Organisational Development Coach.",
   },
+    {
+    img: T11,
+    name: "P. Thanikai Vel Pandian",
+    role: "Business and Leadership Coach",
+    // bio: "POSH Enabler, Reflective Practitioner, One-to-One Expert.",
+  },
    {
     img: T1,
-    name: "Lion.R.Saravanan",
+    name: "Lion.R. Saravanan",
     role: "Motivational Trainer & Speaker",
     // bio: "MBA, M.E, TISS, NLP Master Practitioner, POSH Enabler.",
   },
  
   {
     img: T5,
-    name: "Kamalambal R ",
+    name: "R. Kamalambal ",
     // role: "Psychological Specialist",
     bio: "Soft skills and POSH enabler",
   },
@@ -88,6 +95,12 @@ const trainers = [
     name: "Jc.Rtn.S.AthiNarayanan.,",
     // role: "Psychological Specialist",
     bio: "Skill Development Trainer.",
+  },
+   {
+    img: T12,
+    name: "K. Neethiraja",
+    // role: "Psychological Specialist",
+    bio: "NLP Traniner.",
   },
   {
     img: T6,
@@ -98,8 +111,8 @@ const trainers = [
   
   {
     img: T8,
-    name: "KUMARESAN DHARMASEELAN ",
-    role: "OBT",
+    name: " Kumaresan Dharmaseelan",
+    role: "Out Bound Trainer",
     // bio: "18 Years.",
   },
   {
@@ -114,12 +127,7 @@ const trainers = [
     role: "Game Specialist",
     // bio: "POSH Enabler, Reflective Practitioner, One-to-One Expert.",
   },
-    {
-    img: T11,
-    name: "P.Thanikai Vel Pandian",
-    role: "Business and Leadership Coach",
-    // bio: "POSH Enabler, Reflective Practitioner, One-to-One Expert.",
-  },
+  
 ];
 
 const Team = () => {

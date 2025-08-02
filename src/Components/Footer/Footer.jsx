@@ -59,7 +59,7 @@ const Footer = () => {
       <p>
         <FontAwesomeIcon icon={faEnvelope} className="icon" />
         <span style={{ marginLeft: "8px" }}>
-          <a href="mailto:geesehr@gmail.com">geesehr@gmail.com</a>
+          <a href="mailto:geesehr@gmail.com">geese.hr@gmail.com </a>
         </span>
       </p>
 
