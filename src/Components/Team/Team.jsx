@@ -62,14 +62,13 @@ const trainers = [
   {
     img: T2,
     name: "Vijaymithra",
-    // role: "20+ year Experience",
-    bio: "Training Consultant.",
+    role: "Training Consultant.",
   },
   {
     img: T3,
     name: "KV. Rajeshkumar",
-    // role: "Psychological Specialist",
-    bio: "HR and Organisational Development Coach.",
+
+    role: "HR and Organisational Development Coach.",
   },
     {
     img: T11,
@@ -88,19 +87,19 @@ const trainers = [
     img: T5,
     name: "R. Kamalambal ",
     // role: "Psychological Specialist",
-    bio: "Soft skills and POSH enabler",
+  role: "Soft skills and POSH enabler",
   },
   {
     img: T7,
     name: "Jc.Rtn.S.AthiNarayanan.,",
     // role: "Psychological Specialist",
-    bio: "Skill Development Trainer.",
+    role: "Skill Development Trainer.",
   },
    {
     img: T12,
     name: "K. Neethiraja",
-    // role: "Psychological Specialist",
-    bio: "NLP Traniner.",
+    role: "NLP Traniner.",
+    // bio: "NLP Traniner.",
   },
   {
     img: T6,
