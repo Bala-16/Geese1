@@ -182,9 +182,9 @@ Certified POSH Enabler.`}
             img={SS}
             title=" Sasikumar Subramanian"
             content={`Business Analyst
-Activity-Based & Outbound Trainer.
-Faculty for Management Colleges.
-Conducted FDPs for 1000+ Teachers.`}
+Certified National Trainer- JCI India.
+Certified DISC Coach.
+Expert in Data Driven Decision Making.`}
           />
           <ProfileCard
             // img={SS}

@@ -134,6 +134,7 @@ const Services = () => {
               <li>Competitor Analysis & Market Research</li>
             </ul>
           </motion.div>
+          
         </div>
 
         {/* Empower Card + Stats */}
