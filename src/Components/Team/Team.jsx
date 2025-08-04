@@ -205,11 +205,9 @@ Certified in Psychometrics, CBT, Career Counseling.`}
            <ProfileCard
             // img={NK}
             title=" Prasanna Venkatesan"
-//             content={`Head-Strategic Marketing
-// Certified NLP Master Practitioner, 
-// Sales Excellence Coach,
-// Certified POSH Enabler,
-//  C.E.O Coach, MSME Trainer.`}
+            content={`Mentor
+International Sales Coach, Author.
+`}
           />
           <ProfileCard
             img={NK}

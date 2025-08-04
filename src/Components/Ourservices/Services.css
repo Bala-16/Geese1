@@ -19,10 +19,12 @@
 }
 .services-cards-1 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(4,1fr);
   gap: 2rem;
   justify-content: center;
+  padding: 1rem;
 }
+
 
 .service-card-2{
   background-image: url("../../assets/img/starBG.png");
@@ -89,6 +91,9 @@ position: relative;
   line-height: 1.5;
 }
 @media (max-width: 768px) {
+  .services-cards-1{
+     grid-template-columns: repeat(1, 1fr);
+  }
   .services-heading-2 {
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -104,6 +109,9 @@ position: relative;
 }
 
 @media (max-width: 480px) {
+  .services-cards-1{
+     grid-template-columns: 1fr;
+  }
   .services-heading-2 {
     font-size: 1.75rem;
   }
