@@ -46,7 +46,7 @@
   margin-bottom: 40px;
 }
 
-.benefit-card {
+.benefit-card-1 {
   background-image: url("../../assets/img/starBG.png");
   background-repeat: no-repeat;
 
@@ -67,13 +67,13 @@
   margin-bottom: 10px;
 }
 
-.benefit-card h4 {
+.benefit-card-1 h4 {
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-.benefit-card p {
+.benefit-card-1 p {
   font-size: 1.2rem;
   color: #555;
   line-height: 1.5;

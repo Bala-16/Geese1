@@ -10,8 +10,9 @@ const Navbar = () => {
 
   return (
     <nav className="container">
-      <img src={logo} alt="GEESE" className="logo" />
-
+      <Link to="/">
+        <img src={logo} alt="GEESE" className="logo" />
+      </Link>
       <button className="menu-toggle" onClick={toggleMenu}>
         ☰
       </button>

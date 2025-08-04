@@ -1,7 +1,6 @@
 import React, { useState, useRef } from "react";
 import "./About.css";
 
-
 const About = () => {
   // why geese//
   const handleBenefitClick = (index) => {
@@ -61,9 +60,105 @@ const About = () => {
 
   return (
     <>
-     
-
       {/* why geese */}
+
+      <div className="who-we-are-1">
+        <section className="whoami-section-1">
+          <div className="whoami-content-1">
+            <div className="text-block-1">
+              <h2 className="whoami-title-1">
+                <span>S</span>trategy <span>S</span>tart <span> Here</span>
+                {/* <span className="button-block">
+                  <button className="whoami-button">Learn More</button>
+                </span> */}
+              </h2>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section className="nadhakumar-container">
+        {/* Left side - Text */}
+        <div className="nadhakumar-text">
+          <h4 className="welcome">
+            Welcome to <span>GEESE</span> - Your Trusted Partner in Business
+            Excellence
+          </h4>
+          <p>
+            At<span> GEESE</span>, we specialize in delivering strategic
+            consulting solutions that empower organizations to thrive in a
+            constantly evolving marketplace. With a team of experienced
+            professionals and industry experts, we help businesses unlock their
+            full potential by providing tailored advice, innovative strategies,
+            and actionable insights.
+          </p>
+          <p>
+            Our services span across management consulting, operational
+            efficiency, digital transformation, financial advisory, and market
+            entry strategy-each designed to drive sustainable growth and
+            measurable results. Whether you're a startup seeking structure or an
+            established company aiming for expansion, we're committed to
+            delivering the clarity and confidence you need to make impactful
+            decisions. We don't just advise-we partner with you to turn
+            challenges into opportunities and goals into achievements.
+          </p>
+          <p className="cta">
+            Let's shape the future of your business <span>- together.</span>
+          </p>
+        </div>
+
+        {/* Right side - Image */}
+        {/* <div className="nadhakumar-image">
+           <img src={geese1} alt="geese" />
+          <img src={geese2} alt="geese" /> 
+          <div className="unique-section">
+            <button onClick={toggleSection} className="toggle-btn">
+              {isOpen ? "Hide ▲" : "What Makes Us Unique? ▼"}
+            </button>
+
+            <div
+              ref={contentRef}
+              className={`unique-content ${isOpen ? "open" : ""}`}
+              style={{
+                maxHeight:
+                  isOpen && contentRef.current
+                    ? `${contentRef.current.scrollHeight}px`
+                    : "0px",
+              }}
+            >
+              <ul>
+                <li>✅ Customized Training Modules</li>
+                <li>✅ Data-Driven HR Strategies</li>
+                <li>✅ Human-Centered Business Solutions</li>
+                <li>✅ Proven Results Across Industries</li>
+              </ul>
+
+             
+              <div className="unique-card">
+                We blend psychology, strategy, and simplicity to craft HR and
+                business solutions that work — and last.
+              </div>
+
+            </div>
+          </div>
+        </div> */}
+        <div className="unique-card">
+          <h2>What Makes Us Unique?</h2>
+          <ul>
+            <li>✅ Customized Training Modules</li>
+            <li>✅ Data-Driven HR Strategies</li>
+            <li>✅ Human-Centered Business Solutions</li>
+            <li>✅ Proven Results Across Industries</li>
+          </ul>
+          <div className="para-card">
+            <p>
+              We blend psychology, strategy, and simplicity to craft HR and
+              business solutions that work — and last.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <div>
         <div className="who-we-are">
           <section className="whoami-section">

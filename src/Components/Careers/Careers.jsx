@@ -80,7 +80,7 @@ const roles = [
         <h3 className="section-title">Why Work With Us?</h3>
         <div className="benefits-grid">
           {benefits.map((item, index) => (
-            <div key={index} className="benefit-card">
+            <div key={index} className="benefit-card-1">
               <div className="benefit-emoji">{item.emoji}</div>
               <h4>{item.title}</h4>
               <p>{item.desc}</p>
