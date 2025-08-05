@@ -80,14 +80,14 @@ const trainers = [
   {
     img: T4,
     name: "Mayavaram Sivaraman Charan",
-    role: " Performance Catalyst ",
+    // role: " Performance Catalyst ",
     bio: "(Specialise in Need Analysis & Training) ",
   },
 
   {
     img: T2,
     name: "Vijay Mithra",
-    role: "Corporate Communication Architect",
+    // role: "Corporate Communication Architect",
     bio: "(Expertise in Language & Communication Skills)",
   },
   {
@@ -99,13 +99,13 @@ const trainers = [
   {
     img: T11,
     name: "P. Thanikai Vel Pandian",
-    role: "Business and Leadership Coach",
+    // role: "Business and Leadership Coach",
     bio: "(Expertise in Leadership & Interpersonal Skills)",
   },
   {
     img: T1,
     name: "Lion.R. Saravanan",
-    role: "Motivational Trainer & Speaker",
+    // role: "Motivational Trainer & Speaker",
     bio: "(Expertise in Work Place Skills)",
   },
   {
@@ -195,7 +195,7 @@ Financial Advisor to 100+ Entrepreneurs.`}
           />
           <ProfileCard
             img={muruga}
-            title=" Muruga Barathi kannan"
+            title=" Muruga Barathi Kannan"
             content={`Head-Training & Development
 Certified in Sports Psychology by Rajasthan Royals(IPL),
 Certified NLP Practitioner and Life Coach,
@@ -214,7 +214,7 @@ International Sales Coach, Author.
           />
           <ProfileCard
             img={NK}
-            title=" NandaKumar Selvaraj"
+            title=" Nandakumar Selvaraj"
             content={`Head-Strategic Marketing
 Certified NLP Master Practitioner, 
 Sales Excellence Coach,
@@ -267,11 +267,11 @@ Expert in Data Driven Decision Making.`}
               src={trainer.img}
               alt={trainer.name}
               className="trainer-img"
-              onClick={() => handleImageClick(index)}
+              // onClick={() => handleImageClick(index)}
             />
             <h3>{trainer.name}</h3>
 
-            <motion.div
+            {/* <motion.div
               initial={false}
               animate={
                 openIndex === index
@@ -282,9 +282,10 @@ Expert in Data Driven Decision Making.`}
               className="trainer-info"
               style={{ overflow: "hidden" }}
             >
-              <p className="trainer-role">{trainer.role}</p>
+              
+            </motion.div> */}
+            <p className="trainer-role">{trainer.role}</p>
               <p className="trainer-bio">{trainer.bio}</p>
-            </motion.div>
           </div>
         ))}
       </div>

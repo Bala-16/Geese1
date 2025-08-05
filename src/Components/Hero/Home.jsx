@@ -2,10 +2,6 @@ import React, { useState, useRef } from "react";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import "./Home.css";
-import { motion } from "framer-motion";
-import geese1 from "../../assets/geese1.png";
-import geese2 from "../../assets/geese2.png";
-// import logo from "../../assets/logo.png";
 import king from "../../assets/king.mp4";
 
 import Nike from "../../assets/Corparate clients/Nike.png";
@@ -31,6 +27,8 @@ import GE from "../../assets/Corparate clients/GE.png";
 import KB from "../../assets/Corparate clients/KB.png";
 import MCP from "../../assets/Corparate clients/MCP.png";
 import km from "../../assets/Corparate clients/km.png";
+import Mayil from "../../assets/Corparate clients/Mayil.png"
+import Maharaja from "../../assets/Corparate clients/Maharaja.png"
 // import Hyundai from '../../assets/Corparate clients/Hyundai.jpg'
 import BNI from "../../assets/Association/BNI.png";
 import JCI from "../../assets/Association/JCI.jpg";
@@ -108,8 +106,8 @@ const Home = () => {
 <div className="logo-grid-container">
   {[Nike, Hyundai, Royal, HL, Apollo, Converse, crocs,
     Decathlon, GE, Navin, KB, Nordex, Sachin, salomon,
-    SBT, Tanishq, km, TCCL, MCP, Thanigai, Orange,
-    Focus, Murugappa,
+    SBT, Tanishq, km, TCCL, MCP, Thanigai,Mayil, Orange,
+    Focus,Maharaja, Murugappa,
   ].map((logo, index) => (
     <figure key={index} className="logo-figure">
       <img src={logo} alt={`Logo ${index + 1}`} />

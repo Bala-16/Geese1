@@ -126,16 +126,16 @@
   }
 
   .profile-card {
-    max-width: 90%;
+    max-width: 100%;
   }
 }
 @media (max-width: 480px) {
   .card-heading {
-    font-size: 0.95rem;
+    font-size: 1.5rem;
   }
 
   .card-title {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .card-content {
@@ -143,8 +143,9 @@
   }
 
   .profile-img {
-    width: 110px;
-    height: 110px;
+    
+    width: 100%;
+    height: 200px;
   }
 }
 
@@ -238,7 +239,7 @@ color: #ffd702;
 
 
 .card-content-line {
-  font-size: 1.2rem;         /* Adjust this as needed */
+  font-size: 1.1rem;         /* Adjust this as needed */
   font-weight: 600;
   margin: 0.2rem 0;
   text-align: center;
