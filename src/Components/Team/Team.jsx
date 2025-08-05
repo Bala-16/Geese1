@@ -15,11 +15,14 @@ import T9 from "../../assets/img/trainer/T9.png";
 import T10 from "../../assets/img/trainer/T10.png";
 import T11 from "../../assets/img/trainer/T11.png";
 import T12 from "../../assets/img/trainer/T12.png";
+import srini from "../../assets/img/Head/srini.png"
+import muruga from "../../assets/img/Head/muruga.png"
+import prasana from "../../assets/img/Head/prasana.png"
+import bagee from "../../assets/img/Head/bagee.png"
+import sasi from "../../assets/img/Head/sasi.png"
 import NK from "../../assets/NK.png";
-import MBK from "../../assets/img/MBK.png";
-import BN from "../../assets/img/BN.png";
-import SS from "../../assets/img/SS.png";
-import SSV from "../../assets/img/SSV.png";
+
+
 const ProfileCard = ({ img, title, content }) => {
   const [showDetails, setShowDetails] = useState(false);
   const ref = useRef(null);
@@ -184,14 +187,14 @@ const Team = () => {
       <div className="qualifications-wrapper">
         <div className="qualification-row">
           <ProfileCard
-            img={SSV}
+            img={srini}
             title=' "Vetri Vidiyal" Srinivasan'
             content={`Head-Finance & Cost Control
 Writer and TV Fame,
 Financial Advisor to 100+ Entrepreneurs.`}
           />
           <ProfileCard
-            img={MBK}
+            img={muruga}
             title=" Muruga Barathi kannan"
             content={`Head-Training & Development
 Certified in Sports Psychology by Rajasthan Royals(IPL),
@@ -203,7 +206,7 @@ Certified in Psychometrics, CBT, Career Counseling.`}
 
         <div className="qualification-row">
            <ProfileCard
-            // img={NK}
+            img={prasana}
             title=" Prasanna Venkatesan"
             content={`Mentor
 International Sales Coach, Author.
@@ -223,7 +226,7 @@ Certified POSH Enabler,
         </div>
         <div className="qualification-row">
           <ProfileCard
-            img={BN}
+            img={bagee}
             title=" Bageerathi Nandakumar"
             content={`Head-People Alchemist
 Competency Assessment, Reflective Practitioner,
@@ -231,7 +234,7 @@ One-to-One Specialist,
 Certified POSH Enabler.`}
           />
           <ProfileCard
-            img={SS}
+            img={sasi}
             title=" Sasikumar Subramanian"
             content={`Business Analyst
 Certified National Trainer- JCI India,
