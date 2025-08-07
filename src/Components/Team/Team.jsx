@@ -15,6 +15,7 @@ import T9 from "../../assets/img/trainer/T9.png";
 import T10 from "../../assets/img/trainer/T10.png";
 import T11 from "../../assets/img/trainer/T11.png";
 import T12 from "../../assets/img/trainer/T12.png";
+import T13 from "../../assets/img/trainer/T13.png";
 import srini from "../../assets/img/Head/srini.png"
 import muruga from "../../assets/img/Head/muruga.png"
 import prasana from "../../assets/img/Head/prasana.png"
@@ -86,7 +87,7 @@ const trainers = [
 
   {
     img: T2,
-    name: "Vijay Mithra",
+    name: "Vijaimithra",
     // role: "Corporate Communication Architect",
     bio: "(Expertise in Language & Communication Skills)",
   },
@@ -109,7 +110,7 @@ const trainers = [
     bio: "(Expertise in Work Place Skills)",
   },
   {
-    // img: T1,
+    img: T13,
     name: "Briel",
     // role: "Motivational Trainer & Speaker",
     // bio: "(Expertise in Work Place Skills)",
