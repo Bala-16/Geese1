@@ -23,7 +23,7 @@ const Contact = () => {
           <div className="contact-info">
             <h3>📞 Contact Info</h3>
             <p>
-              <strong>Phone:</strong> +91 9994887194, +91 9789449223
+              <strong>Phone:</strong> +91 9994887194,+91 9789449223
             </p>
             <p>
               <strong>Email:</strong>{" "}
