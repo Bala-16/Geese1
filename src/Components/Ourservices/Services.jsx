@@ -135,7 +135,7 @@ const Services = () => {
             </ul>
           </motion.div>
 
-            <motion.div
+          <motion.div
             className="service-card-2"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -147,10 +147,9 @@ const Services = () => {
               <li> Understanding the customer </li>
               <li> Revealing Perception</li>
               <li> Finding the "Why"</li>
-            
             </ul>
           </motion.div>
-            <motion.div
+          <motion.div
             className="service-card-2"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -161,10 +160,9 @@ const Services = () => {
               <li>Creating unique impression</li>
               <li> Building trust</li>
               <li> Communicating values</li>
-             
             </ul>
           </motion.div>
-            <motion.div
+          <motion.div
             className="service-card-2"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -175,18 +173,15 @@ const Services = () => {
               <li>Data-driven positioning</li>
               <li> Authentic Communication </li>
               <li> Strategic growth</li>
-             
             </ul>
           </motion.div>
-          
-          
         </div>
 
         {/* Empower Card + Stats */}
         <div className="empower-card">
           <p className="description">
             At <strong>GEESE</strong> we don’t just consult — we transform. With
-            over <br />
+            over
             <span>
               we are on a mission to create performance-driven people and
               purpose-driven organizations.

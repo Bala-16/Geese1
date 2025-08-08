@@ -416,7 +416,7 @@
 /* src/components/Demo.css */
 
 .impact-container {
-  padding: 60px 20px;
+  padding: 10px 20px;
   text-align: center;
   max-width: 1200px;
   margin: auto;
@@ -708,8 +708,8 @@
   }
 
   .nadhakumar-text p {
-    font-size: 1.6rem;
-    text-align: left;
+    font-size: 1.2rem;
+    text-align: justify;
   }
 
   /* .toggle-btn {
@@ -738,8 +738,8 @@
   border-radius: 1rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   max-width: 800px;
-  margin: 3rem auto ;
-  margin-bottom: 10rem;
+  margin: 10px auto ;
+  margin-bottom: 10px;
   /* font-family: 'Segoe UI', sans-serif; */
   transition: all 0.3s ease-in-out;
 }
@@ -849,3 +849,16 @@
 }
 
 
+/* Tablet view (2 columns) */
+@media (min-width: 768px) {
+  .services-cards-1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop view (4 columns) */
+@media (min-width: 1024px) {
+  .services-cards-1 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

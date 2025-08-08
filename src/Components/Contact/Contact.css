@@ -1,4 +1,8 @@
 .contact-wrapper {
+  background-image: url('../../assets/img/starBG.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 40px 20px;
   background-color: #f8f8f8;
 }
@@ -13,7 +17,7 @@
 }
 
 .contact-info, .contact-form {
-  flex: 1 1 350px;
+  flex: 1 1 150px;
   background: #fff;
   padding: 25px;
   border-radius: 12px;
@@ -27,8 +31,9 @@
 }
 
 .contact-info p {
-  margin: 10px 0;
+  margin: 40px ;
   line-height: 1.6;
+  /* font-size: .95rem; */
 }
 
 .contact-form input,

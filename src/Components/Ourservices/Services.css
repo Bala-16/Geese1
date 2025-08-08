@@ -121,15 +121,16 @@ position: relative;
   }
 
   .service-card-2 h3 {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
 
   .service-card-2 ul {
     padding-left: 1rem;
+    
   }
 
   .service-card-2 li {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -139,7 +140,7 @@ position: relative;
   color: #000;
   line-height: 1.7;
   margin-bottom: 2rem;
-  text-align: center;
+  text-align: justify;
 }
 .description strong {
   font-family: "Lora", serif;

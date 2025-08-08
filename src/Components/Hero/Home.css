@@ -93,12 +93,12 @@
     max-width: 100%;
   }
 
-  .title {
-    font-size: 2rem;
+  .title-1 {
+    font-size: 3rem;
   }
 
   .subtitle {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -139,8 +139,8 @@
 /* Responsive */
 @media (max-width: 600px) {
   .animated-yellow-btn {
-    width: 100%;
-    font-size: 14px;
+    width: 95%;
+    font-size: 15px;
     padding: 12px;
   }
 }

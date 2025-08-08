@@ -35,9 +35,10 @@ const Contact = () => {
             </p> */}
           </div>
           <div className="contact-info">
+           <h3> 🕑 Working Hours:</h3>
             <p>
-              <strong>Working Hours:</strong>
-              <br />
+             
+            
               Mon–Fri: 10:00am – 06:30pm
               <br />
               Sat: 10:00am – 05:00pm
@@ -67,12 +68,7 @@ const Contact = () => {
             loading="lazy"
             allowFullScreen
           ></iframe>
-          <iframe
-            title="Geese"
-            // src="https://www.google.com/maps?q=Dubai&output=embed"
-            loading="lazy"
-            allowFullScreen
-          ></iframe>
+          
         </div>
       </section>
     </>

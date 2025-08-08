@@ -140,7 +140,7 @@
 }
 
 /* Responsive Tweaks */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .careers-heading {
     font-size: 2.2rem;
   }
@@ -160,7 +160,7 @@
   .closing-text {
     font-size: 1rem;
   }
-}
+} */
 
 
 
@@ -217,15 +217,91 @@
   background-color: #357bd8;
 }
 
-/* Responsive Design */
-@media (max-width: 480px) {
-  .careers-container {
-    padding: 1.5rem 1rem;
-  }
-
-  .careers-form input,
-  .careers-form button {
-    font-size: 0.95rem;
-    padding: 0.6rem;
+/* Responsive Tweaks */
+@media (max-width: 1024px) {
+  .benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media (max-width: 768px) {
+  .careers-heading {
+    font-size: 2.2rem;
+    padding: 8px;
+  }
+
+  .careers-intro {
+    font-size: 1.3rem;
+    padding: 0 10px;
+    background-size: 200px;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr; /* Stack benefits */
+    gap: 20px;
+  }
+
+  .benefit-card-1 {
+    padding: 18px;
+  }
+
+  .benefit-card-1 h4 {
+    font-size: 1.3rem;
+  }
+
+  .benefit-card-1 p {
+    font-size: 1rem;
+  }
+
+  .role-list {
+    background-size: 400px;
+  }
+
+  .role-item {
+    font-size: 1rem;
+    padding: 10px 14px;
+  }
+
+  .closing-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .careers-heading {
+    font-size: 1.8rem;
+  }
+
+  .careers-intro {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    background-size: 150px;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+    padding: 8px 0;
+  }
+
+  .role-item {
+    font-size: 0.95rem;
+    padding: 8px 12px;
+  }
+
+  .benefit-card-1 h4 {
+    font-size: 1.5rem;
+  }
+
+  .benefit-card-1 p {
+    font-size: 1rem;
+  }
+
+  .closing-text {
+    font-size: 0.9rem;
+  }
+}
+
