@@ -151,12 +151,12 @@ const trainers = [
     role: "Sales & Marketing Trainer",
     // bio: "5 years.",
   },
-  {
-    img: T10,
-    name: "S. Johnson",
-    role: "Game Specialist",
-    // bio: "POSH Enabler, Reflective Practitioner, One-to-One Expert.",
-  },
+  // {
+  //   img: T10,
+  //   name: "S. Johnson",
+  //   role: "Game Specialist",
+  //   bio: "POSH Enabler, Reflective Practitioner, One-to-One Expert.",
+  // },
 ];
 
 const Team = () => {
