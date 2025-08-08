@@ -266,6 +266,9 @@
   .whoami-title {
     font-size: 2rem;
   }
+  .impact-heading{
+    font-size: 2rem;
+  }
 
   .whoami-button {
     padding: 10px 20px;
@@ -275,7 +278,10 @@
 
 @media (max-width: 480px) {
   .whoami-title {
-    font-size: 1.6rem;
+    font-size: 2rem;
+  }
+  .impact-heading{
+    font-size: 1.5rem;
   }
 
   .whoami-button {
@@ -425,9 +431,10 @@
 .impact-heading {
   background-color: #15416e;
   /* text-transform: uppercase; */
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: #ffd702;
   margin-bottom: 40px;
+  padding: 10px;
 }
 /* .impact-heading span{
   color: #ffd702;
@@ -454,12 +461,12 @@
 }
 
 .impact-icon {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   margin-bottom: 10px;
 }
 
 .impact-text {
-  font-family: "Bebas Neue", sans-serif;
+  /* font-family: "Bebas Neue", sans-serif; */
   font-size: 2rem;
   font-weight: 500;
   color: #333;
@@ -468,7 +475,8 @@
 .impact-footer {
   margin-top: 30px;
   font-size: 1.5rem;
-  color: #444;
+  color: #000;
+  font-weight: bold;
 }
 
 /* Animation */
@@ -486,7 +494,7 @@
   }
 
   .impact-text {
-    font-size: 15px;
+    font-size: 1.1rem;
   }
 
   .impact-footer {
@@ -780,6 +788,7 @@
 
 .para-card p {
   margin: 0;
+  font-weight: bold;
   font-size: 1.5rem;
   line-height: 1.5;
   color: #000;

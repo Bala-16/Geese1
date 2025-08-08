@@ -66,7 +66,7 @@ const About = () => {
         <section className="whoami-section-1">
           <div className="whoami-content-1">
             <div className="text-block-1">
-              <h2 className="whoami-title-1">
+              <h2 className="whoami-title">
                 <span>S</span>trategy <span>S</span>tart <span> Here</span>
                 {/* <span className="button-block">
                   <button className="whoami-button">Learn More</button>
@@ -202,7 +202,7 @@ const About = () => {
       <div>
         <section className="impact-container">
           <h2 className="impact-heading">
-            Our <span>Impact</span>
+            Our Impact
           </h2>
           <div className="impact-grid">
             {impactData.map((item, index) => (
