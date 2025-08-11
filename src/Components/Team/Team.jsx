@@ -95,7 +95,8 @@ const trainers = [
     img: T3,
     name: "KV Rajeshkumar",
 
-    role: "Organisational  Growth Mentor",
+    // role: "Organisational  Growth Mentor",
+    bio:"(Expertise in Organisational Growth)"
   },
   {
     img: T11,
@@ -113,43 +114,45 @@ const trainers = [
     img: T13,
     name: "Briel",
     // role: "Motivational Trainer & Speaker",
-    // bio: "(Expertise in Work Place Skills)",
+    bio: "(Expertise in Direct Sales) ",
   },
   {
     img: T5,
     name: "R Kamalambal ",
-    role: "HR Trainer & POSH Enabler",
+    // role: "HR Trainer & POSH Enabler",
+    bio:"(Specialise in POSH Training)"
   },
   {
     img: T7,
     name: "Jc.Rtn.S.AthiNarayanan.,",
     // role: "Psychological Specialist",
-    role: "Skill Development Trainer",
+    // role: "Skill Development Trainer",
+    bio:"(Specialise in Sales Training)"
   },
   {
     img: T12,
     name: "K. Neethiraja",
-    role: "NLP Traniner",
-    // bio: "NLP Traniner.",
+    // role: "NLP Traniner",
+    bio: "(Specialise in NLP Training)",
   },
   {
     img: T6,
     name: "Jahir",
-    role: "Leadership coach ",
-    // bio: "7 years experience.",
+    // role: "Leadership coach ",
+    bio: "(Specialise in Leadership Development)",
   },
 
   {
     img: T8,
     name: " Kumaresan Dharmaseelan",
-    role: "Out Bound Trainer",
-    // bio: "18 Years.",
+    // role: "Out Bound Trainer",
+    bio: "(Specialise in Out Bound Training) ",
   },
   {
     img: T9,
     name: "A. Maria Shajahan",
-    role: "Sales & Marketing Trainer",
-    // bio: "5 years.",
+    // role: "Sales & Marketing Trainer",
+    bio: "(Specialise in Soft skill Training)",
   },
   // {
   //   img: T10,

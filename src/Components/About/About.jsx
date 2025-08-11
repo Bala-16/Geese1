@@ -8,6 +8,7 @@ const About = () => {
   };
 
   const [activeIndex, setActiveIndex] = useState(null);
+  const [expanded, setExpanded] = useState(false);
 
   const benefits = [
     {
@@ -78,12 +79,13 @@ const About = () => {
       </div>
 
       <section className="nadhakumar-container">
-        {/* Left side - Text */}
-        <div className="nadhakumar-text">
-          <h4 className="welcome">
-            Welcome to <span>GEESE</span> - Your Trusted Partner in Business
-            Excellence
-          </h4>
+      <div className="nadhakumar-text ">
+        <h4 className="welcome">
+          Welcome to <span>GEESE</span> - Your Trusted Partner in Business
+          Excellence
+        </h4>
+
+        <div className={`text-content ${expanded ? "show" : ""}`}>
           <p>
             At<span> GEESE</span>, we specialize in delivering strategic
             consulting solutions that empower organizations to thrive in a
@@ -95,11 +97,11 @@ const About = () => {
           <p>
             Our services span across management consulting, operational
             efficiency, digital transformation, financial advisory, and market
-            entry strategy-each designed to drive sustainable growth and
+            entry strategy — each designed to drive sustainable growth and
             measurable results. Whether you're a startup seeking structure or an
             established company aiming for expansion, we're committed to
             delivering the clarity and confidence you need to make impactful
-            decisions. We don't just advise-we partner with you to turn
+            decisions. We don't just advise — we partner with you to turn
             challenges into opportunities and goals into achievements.
           </p>
           <p className="cta">
@@ -107,41 +109,14 @@ const About = () => {
           </p>
         </div>
 
-        {/* Right side - Image */}
-        {/* <div className="nadhakumar-image">
-           <img src={geese1} alt="geese" />
-          <img src={geese2} alt="geese" /> 
-          <div className="unique-section">
-            <button onClick={toggleSection} className="toggle-btn">
-              {isOpen ? "Hide ▲" : "What Makes Us Unique? ▼"}
-            </button>
-
-            <div
-              ref={contentRef}
-              className={`unique-content ${isOpen ? "open" : ""}`}
-              style={{
-                maxHeight:
-                  isOpen && contentRef.current
-                    ? `${contentRef.current.scrollHeight}px`
-                    : "0px",
-              }}
-            >
-              <ul>
-                <li>✅ Customized Training Modules</li>
-                <li>✅ Data-Driven HR Strategies</li>
-                <li>✅ Human-Centered Business Solutions</li>
-                <li>✅ Proven Results Across Industries</li>
-              </ul>
-
-             
-              <div className="unique-card">
-                We blend psychology, strategy, and simplicity to craft HR and
-                business solutions that work — and last.
-              </div>
-
-            </div>
-          </div>
-        </div> */}
+        <span
+          className="read-more"
+          onClick={() => setExpanded(!expanded)}
+        >
+          {expanded ? "Show Less" : "Read More"}
+        </span>
+      </div>
+    </section>
         <div className="unique-card">
           <h2>What Makes Us Unique?</h2>
           <ul>
@@ -157,7 +132,6 @@ const About = () => {
             </p>
           </div>
         </div>
-      </section>
 
       <div>
         <div className="who-we-are">

@@ -601,7 +601,7 @@
   background-position: left top;
   background-size: cover;
   flex: 1 1 500px;
-  max-width: 900px;
+  width: 100%;
   margin: 0px;
   padding:  60px;
   font-family: "Segoe UI", sans-serif;
@@ -614,11 +614,11 @@
   color: #000;
   margin-bottom: 20px;
 }
-.nadhakumar-text span {
+/* .nadhakumar-text span {
   font-family: "Lora", serif;
   color: #ffd702;
   font-weight: bold;
-}
+} */
 
 .nadhakumar-text p {
   font-size: 1.5rem;
@@ -627,75 +627,47 @@
 }
 
 
-/* .nadhakumar-image {
-  flex: 1 1 400px;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-} 
-
-.nadhakumar-image img {
-  max-width: 100%;
-  height: auto;
-} */
-
-
-/* .toggle-btn {
-  margin-top: 20px;
-  
-  background-color: #ffd702;
-  color: #000;
-  padding: 12px 24px;
-  font-size: 1.5rem;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  width: 100%;
-  max-width: 350px;
-}
-
-.toggle-btn:hover {
-  background-color: #ffd702;
-} */
-
-/* 
-.unique-content {
+.text-content {
+  max-height: 4.5em; /* About 3 lines */
   overflow: hidden;
-  transition: max-height 0.6s ease;
-  background-color: #eef1ff;
-  border-left: 5px solid #ffd702;
-  margin-top: 20px;
-  border-radius: 6px;
-  padding: 0 20px;
+  transition: max-height 0.5s ease-in-out;
 }
 
-.unique-content.open {
-  padding: 5px 10px;
-} 
-
-.unique-content ul {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 15px;
+/* Expanded state */
+.text-content.show {
+  max-height: 1000px; /* Large enough to show all text */
 }
 
-.unique-content li {
-  margin: 8px 0;
-  font-size: 1rem;
+/* CTA paragraph */
+.cta {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* .cta span {
+  color: #ff6600;
 } */
+ .welcome {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.welcome span {
+  color: #ffd702; /* Highlighted word color */
+}
+
+/* Read more button */
+.read-more {
+  display: inline-block;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  color: #ffd702;
+  cursor: pointer;
+  font-weight: bold;
+}
 
 
-/* .unique-card {
-  background-color: lightgrey;
-  border: 1px solid #ccc;
-  border-left: 5px solid #db3d11;
-  padding: 5px;
-  border-radius: 10px;
-  font-size: 1rem;
-  margin-top: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-} */
 @media (max-width: 768px) {
   .nadhakumar-container {
     flex-direction: column;
@@ -709,7 +681,9 @@
     max-width: 100%;
     padding: 10px;
   }
-
+ .text-content {
+    max-height: 3.6em; /* Slightly less on mobile */
+  }
 
   .nadhakumar-text h2 {
     font-size: 1.6rem;
@@ -733,7 +707,15 @@
   } */
 }
 
+@media (max-width: 480px) {
+  .welcome {
+    font-size: 1rem;
+  }
 
+  .read-more {
+    font-size: 0.9rem;
+  }
+}
 /* what makes us unique */
 
 .unique-card {
@@ -872,3 +854,6 @@
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+
+
