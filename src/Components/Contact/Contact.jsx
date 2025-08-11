@@ -5,6 +5,7 @@ const Contact = () => {
   return (
     <>
       {/* Header */}
+      <br/>
       <div className="who-we-are">
         <section className="whoami-section">
           <div className="whoami-content">
