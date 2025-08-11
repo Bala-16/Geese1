@@ -191,16 +191,20 @@ const Team = () => {
             img={srini}
             title=' "Vetri Vidiyal" Srinivasan'
             content={`Head-Finance & Cost Control
-Writer and TV Fame,
-Financial Advisor to 100+ Entrepreneurs.`}
+
+30+year of Experince
+Expertise in
+1-Strategic Financial Management
+2-Cost Control & Optimization
+3-Financial Planning & Analysis.`}
           />
           <ProfileCard
             img={muruga}
             title=" Muruga Barathi Kannan"
             content={`Head-Training & Development
-Certified in Sports Psychology by Rajasthan Royals(IPL),
-Certified NLP Practitioner and Life Coach,
-Certified in Psychometrics, CBT, Career Counseling.`}
+20+years of Industry Experince
+1-Expertise in Strategic Learning and development
+2-Leadership and Managerial development`}
           />
         </div>
         

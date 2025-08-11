@@ -21,9 +21,9 @@ const About = () => {
         "Every organization is different. Our services are tailored to meet your exact needs, no matter your size or sector.",
     },
     {
-      title: "✔ Certified & Passionate Trainers, Consultants and professionals",
+      title: "✔ Certified & Passionate Professionals",
       description:
-        "Our team are not only certified but deeply passionate about helping teams and leaders grow.",
+        "(Trainers,Consultants,Professionals and Expert )Our team are not only certified but deeply passionate about helping teams,leaders and Organisation trip to  grow.",
     },
     {
       title: "✔ Measurable Outcomes",
@@ -152,8 +152,8 @@ const About = () => {
           </ul>
           <div className="para-card">
             <p>
-              We blend psychology, strategy, and simplicity to craft HR and
-              business solutions that work — and last.
+              We blend Psychology, Strategy, and Simplicity to craft HR and
+              Business Solutions that work — and last.
             </p>
           </div>
         </div>

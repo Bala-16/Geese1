@@ -29,6 +29,14 @@ import MCP from "../../assets/Corparate clients/MCP.png";
 import km from "../../assets/Corparate clients/km.png";
 import Mayil from "../../assets/Corparate clients/Mayil.png"
 import Maharaja from "../../assets/Corparate clients/Maharaja.png"
+import sumangali from "../../assets/Corparate clients/sumangali.png"
+import chettinad from "../../assets/Corparate clients/chettinad.png"
+import MGM from "../../assets/Corparate clients/MGM.png"
+import LIC from "../../assets/Corparate clients/LIC.png"
+import khadim from "../../assets/Corparate clients/khadim.png"
+import naturals from "../../assets/Corparate clients/naturals.png"
+import jain from "../../assets/Corparate clients/jain.png"
+import jaya from "../../assets/Corparate clients/jaya.png"
 // import Hyundai from '../../assets/Corparate clients/Hyundai.jpg'
 import BNI from "../../assets/Association/BNI.png";
 import JCI from "../../assets/Association/JCI.jpg";
@@ -36,12 +44,15 @@ import LI from "../../assets/Association/LI.png";
 import Rotary from "../../assets/Association/Rotary.png";
 import TAI from "../../assets/Association/TAI.png";
 import TNHA from "../../assets/Association/TNHA.png";
-
+import divine from "../../assets/Corparate clients/divine.png";
+import aswins from "../../assets/Corparate clients/aswins.png";
 import AN from "../../assets/University/AN.jpg";
 import AREK from "../../assets/University/AREK.png";
 import IIM from "../../assets/University/IIM.jpg";
 import NIT from "../../assets/University/NIT.png";
-
+import Alagappa from "../../assets/University/Alagappa.png";
+import Annamalai from "../../assets/University/Annamalai.png"
+import bharathiar from "../../assets/University/bharathiar.png"
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const contentRef = useRef(null);
@@ -104,10 +115,10 @@ const Home = () => {
 <div className="full-underline"></div>
 
 <div className="logo-grid-container">
-  {[Nike, Hyundai, Royal, HL, Apollo, Converse, crocs,
+  {[Nike, Hyundai, sumangali,Royal, HL, Apollo,chettinad,MGM, Converse, crocs,
     Decathlon, GE, Navin, KB, Nordex, Sachin, salomon,
-    SBT, Tanishq, km, TCCL, MCP, Thanigai,Mayil, Orange,
-    Focus,Maharaja, Murugappa,
+    SBT, Tanishq, km, TCCL, MCP, Thanigai,Mayil,naturals,jain, Orange,
+    Focus,Maharaja,LIC,khadim, Murugappa,divine,aswins,,jaya,
   ].map((logo, index) => (
     <figure key={index} className="logo-figure">
       <img src={logo} alt={`Logo ${index + 1}`} />
@@ -120,7 +131,7 @@ const Home = () => {
 <div className="full-underline-2"></div>
 
 <div className="logo-grid-container">
-  {[BNI, JCI, LI, Rotary, TAI, TNHA, AN, AREK, IIM, NIT].map(
+  {[BNI, JCI, LI, Rotary, TAI, TNHA, AN, AREK, IIM, NIT,Alagappa,Annamalai,bharathiar].map(
     (logo, index) => (
       <figure key={index} className="logo-figure">
         <img src={logo} alt={`Logo ${index + 1}`} />
