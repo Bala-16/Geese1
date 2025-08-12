@@ -80,77 +80,77 @@ const ProfileCard = ({ img, title, content }) => {
 const trainers = [
   {
     img: T4,
-    name: "Mayavaram Sivaraman Charan",
+    name: "Mr.Mayavaram Sivaraman Charan",
     // role: " Performance Catalyst ",
     bio: "(Specialise in Need Analysis & Training) ",
   },
 
   {
     img: T2,
-    name: "Vijaimithra",
+    name: "Mr.Vijaimithra",
     // role: "Corporate Communication Architect",
     bio: "(Expertise in Language & Communication Skills)",
   },
   {
     img: T3,
-    name: "KV Rajeshkumar",
+    name: "Mr.KV. Rajeshkumar",
 
     // role: "Organisational  Growth Mentor",
     bio:"(Expertise in Organisational Growth)"
   },
   {
     img: T11,
-    name: "P. Thanikai Vel Pandian",
+    name: "Mr.P. Thanikai Vel Pandian",
     // role: "Business and Leadership Coach",
     bio: "(Expertise in Leadership & Interpersonal Skills)",
   },
   {
     img: T1,
-    name: "Lion.R. Saravanan",
+    name: "Mr.R. Saravanan",
     // role: "Motivational Trainer & Speaker",
     bio: "(Expertise in Work Place Skills)",
   },
   {
     img: T13,
-    name: "Briel",
+    name: "Mr. Briel",
     // role: "Motivational Trainer & Speaker",
     bio: "(Expertise in Direct Sales) ",
   },
   {
     img: T5,
-    name: "R Kamalambal ",
+    name: "Mrs.R. Kamalambal ",
     // role: "HR Trainer & POSH Enabler",
     bio:"(Specialise in POSH Training)"
   },
   {
     img: T7,
-    name: "Jc.Rtn.S.AthiNarayanan.,",
+    name: "Mr.S.AthiNarayanan.,",
     // role: "Psychological Specialist",
     // role: "Skill Development Trainer",
     bio:"(Specialise in Sales Training)"
   },
   {
     img: T12,
-    name: "K. Neethiraja",
+    name: "Mr.K. Neethiraja",
     // role: "NLP Traniner",
     bio: "(Specialise in NLP Training)",
   },
   {
     img: T6,
-    name: "Jahir",
+    name: "Mr. Jahir",
     // role: "Leadership coach ",
     bio: "(Specialise in Leadership Development)",
   },
 
   {
     img: T8,
-    name: " Kumaresan Dharmaseelan",
+    name: "Mr. Kumaresan Dharmaseelan",
     // role: "Out Bound Trainer",
     bio: "(Specialise in Out Bound Training) ",
   },
   {
     img: T9,
-    name: "A. Maria Shajahan",
+    name: "Mr.A. Maria Shajahan",
     // role: "Sales & Marketing Trainer",
     bio: "(Specialise in Soft skill Training)",
   },
@@ -192,22 +192,22 @@ const Team = () => {
         <div className="qualification-row">
           <ProfileCard
             img={srini}
-            title=' "Vetri Vidiyal" Srinivasan'
+            title=' Mr."Vetri Vidiyal" Srinivasan'
             content={`Head-Finance & Cost Control
 
 30+year of Experince
 Expertise in
-1-Strategic Financial Management
-2-Cost Control & Optimization
-3-Financial Planning & Analysis.`}
+Strategic Financial Management
+Cost Control & Optimization
+Financial Planning & Analysis.`}
           />
           <ProfileCard
             img={muruga}
-            title=" Muruga Barathi Kannan"
+            title=" Mr. Muruga Barathi Kannan"
             content={`Head-Training & Development
 20+years of Industry Experince
-1-Expertise in Strategic Learning and development
-2-Leadership and Managerial development`}
+Expertise in Strategic Learning and development
+Leadership and Managerial development`}
           />
         </div>
         
@@ -215,14 +215,14 @@ Expertise in
         <div className="qualification-row">
            <ProfileCard
             img={prasana}
-            title=" Prasanna Venkatesan"
-            content={`Mentor
+            title=" Mr. Prasanna Venkatesan"
+            content={`Mentor-GEESE
 International Sales Coach, Author.
 `}
           />
           <ProfileCard
             img={NK}
-            title=" Nandakumar Selvaraj"
+            title=" Mr. Nandakumar Selvaraj"
             content={`Head-Strategic Marketing
 Certified NLP Master Practitioner, 
 Sales Excellence Coach,
@@ -235,7 +235,7 @@ Certified POSH Enabler,
         <div className="qualification-row">
           <ProfileCard
             img={bagee}
-            title=" Bageerathi Nandakumar"
+            title="Mrs. Bageerathi Nandakumar"
             content={`Head-People Alchemist
 Competency Assessment, Reflective Practitioner,
 One-to-One Specialist,
@@ -243,7 +243,7 @@ Certified POSH Enabler.`}
           />
           <ProfileCard
             img={sasi}
-            title=" Sasikumar Subramanian"
+            title=" Mr. Sasikumar Subramanian"
             content={`Business Analyst
 Certified National Trainer- JCI India,
 Certified DISC Coach,
@@ -251,15 +251,15 @@ Expert in Data Driven Decision Making.`}
           />
          
         </div>
-          <div className="qualification-row">
+          {/* <div className="qualification-row">
               <ProfileCard
-            // img={SS}
+            img={SS}
             title="Arun kumar"
-            content={`Digital Patner
+            content={`Digital Partner
                         
              `}
           />
-          </div>
+          </div> */}
        
       </div>
 {/* our trainer */}

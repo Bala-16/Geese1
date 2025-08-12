@@ -19,8 +19,8 @@
 }
 .services-cards-1 {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
   justify-content: center;
   padding: 1rem;
 }
@@ -33,7 +33,7 @@
   background-size: cover;
   
   padding: 20px 10px;
-  border-radius: 16px;
+  border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease;
   text-align: left;
@@ -140,7 +140,7 @@ position: relative;
   color: #000;
   line-height: 1.7;
   margin-bottom: 2rem;
-  text-align: justify;
+  text-align: center;
 }
 .description strong {
   font-family: "Lora", serif;

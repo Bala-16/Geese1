@@ -24,7 +24,7 @@ const About = () => {
     {
       title: "✔ Certified & Passionate Professionals",
       description:
-        "(Trainers,Consultants,Professionals and Expert )Our team are not only certified but deeply passionate about helping teams,leaders and Organisation trip to  grow.",
+        "(Trainers,Consultants,Professionals and Expert )Our team are not only certified but deeply passionate about helping teams,leaders and Organisation  to  grow.",
     },
     {
       title: "✔ Measurable Outcomes",

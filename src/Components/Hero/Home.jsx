@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
+import stage from "../../assets/img/stage.png"
 import "./Home.css";
 import king from "../../assets/king.mp4";
 
@@ -90,9 +91,9 @@ const Home = () => {
             Empowering organizations through strategic HR and business solutions
             that drive growth and performance.
           </p>
-          <button className="animated-yellow-btn">
+          {/* <button className="animated-yellow-btn">
             3-Mins Video About Business Trends"A Wise Move Pawn to King"
-          </button>
+          </button> */}
         </div>
 
         <div className="home-right">
@@ -146,12 +147,15 @@ const Home = () => {
   <p className="road-description">
     Our structured roadmap helps organizations move from current capability to sustained excellence.
   </p>
-  <ul className="road-list">
+  <div className="roadmap-container">
+  <img src={stage} alt="Roadmap" className="roadmap-image"/>
+  </div>
+  {/* <ul className="road-list">
     <li>Step 1: Identify Gaps and Needs</li>
     <li>Step 2: Customize Training & Mentorship</li>
     <li>Step 3: Continuous Performance Tracking</li>
     <li>Step 4: Strategic Feedback and Growth Planning</li>
-  </ul>
+  </ul> */}
 </section>
 
 

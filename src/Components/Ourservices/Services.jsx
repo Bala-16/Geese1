@@ -4,7 +4,7 @@ import { motion, useInView } from "framer-motion";
 import CountUp from "react-countup"; // Make sure you've installed this
 
 const stats = [
-  { number: 12, suffix: "+", label: "Years of Experience" },
+  { number: 10, suffix: "+", label: "Years of Experience" },
   { number: 50, suffix: "+", label: "Corporates Empowered" },
   { number: 400000, suffix: "+", label: "Employees Shaped" },
   { number: 5000, suffix: "+", label: "Trained Professionals" },
@@ -94,7 +94,7 @@ const Services = () => {
             <ul>
               <li>HR Analytics</li>
               <li>Strategic Talent Management</li>
-              <li>Mergers and Acquisitions (M&A) HR Integration</li>
+              <li>Mergers and Acquisitions(M&A)HR Integration</li>
               <li>Diversity, Equity, and Inclusion (DE&I) Initiatives</li>
               <li>Employee Relations and Conflict Resolution</li>
               <li>HR change management</li>
@@ -182,11 +182,12 @@ const Services = () => {
         <div className="empower-card">
           <p className="description">
             At <strong>GEESE</strong> we don’t just consult — we transform. With
-            over
-            <span>
-              we are on a mission to create performance-driven people and
-              purpose-driven organizations.
-            </span>
+            over, 
+            
+           
+            
+              
+            
           </p>
 
           <div className="stats-row">
@@ -208,6 +209,10 @@ const Services = () => {
               </div>
             ))}
           </div>
+          <p className="description">
+             we are on a mission to create performance-driven people and
+              purpose-driven organizations.
+          </p>
 
           <p className="cta">
             Let’s build the future of your workforce — <span>together</span>.

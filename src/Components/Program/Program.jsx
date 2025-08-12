@@ -67,7 +67,7 @@ const Programs = () => {
           <div className="center-box">
             <p className="description-1">
               Specialized Public Training Program for Business People which has
-              crossed 1000 participants all over Tamil Nadu.
+              crossed 1000 participants all over TamilNadu.
             </p>
           </div>
         </div>
