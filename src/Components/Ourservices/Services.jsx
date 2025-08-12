@@ -94,7 +94,7 @@ const Services = () => {
             <ul>
               <li>HR Analytics</li>
               <li>Strategic Talent Management</li>
-              <li>Mergers and Acquisitions(M&A)HR Integration</li>
+              <li>Mergers and Acquisitions (M&A) HR Integration</li>
               <li>Diversity, Equity, and Inclusion (DE&I) Initiatives</li>
               <li>Employee Relations and Conflict Resolution</li>
               <li>HR change management</li>
