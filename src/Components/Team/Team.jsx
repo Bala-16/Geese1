@@ -21,6 +21,7 @@ import muruga from "../../assets/img/Head/muruga.png"
 import prasana from "../../assets/img/Head/prasana.png"
 import bagee from "../../assets/img/Head/bagee.png"
 import sasi from "../../assets/img/Head/sasi.png"
+import giri from "../../assets/img/Head/giri.png"
 import arun from "../../assets/img/Head/arun.png"
 import NK from "../../assets/NK.png";
 
@@ -222,7 +223,7 @@ International Sales Coach, Author.
 `}
           />
             <ProfileCard
-            // img={prasana}
+            img={giri}
             title=" Mr.Giridhar"
             content={`Mentor-GEESE
 International Sales Coach, Author.
