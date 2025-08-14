@@ -21,6 +21,7 @@ import muruga from "../../assets/img/Head/muruga.png"
 import prasana from "../../assets/img/Head/prasana.png"
 import bagee from "../../assets/img/Head/bagee.png"
 import sasi from "../../assets/img/Head/sasi.png"
+import arun from "../../assets/img/Head/arun.png"
 import NK from "../../assets/NK.png";
 
 
@@ -220,7 +221,19 @@ Leadership and Managerial development`}
 International Sales Coach, Author.
 `}
           />
-          <ProfileCard
+            <ProfileCard
+            // img={prasana}
+            title=" Mr.Giridhar"
+            content={`Mentor-GEESE
+International Sales Coach, Author.
+`}
+          />
+       
+          
+        
+        </div>
+        <div className="qualification-row">
+           <ProfileCard
             img={NK}
             title=" Mr. Nandakumar Selvaraj"
             content={`Head-Strategic Marketing
@@ -229,10 +242,6 @@ Sales Excellence Coach,
 Certified POSH Enabler,
  C.E.O Coach, MSME Trainer.`}
           />
-          
-        
-        </div>
-        <div className="qualification-row">
           <ProfileCard
             img={bagee}
             title="Mrs. Bageerathi Nandakumar"
@@ -241,7 +250,11 @@ Competency Assessment, Reflective Practitioner,
 One-to-One Specialist,
 Certified POSH Enabler.`}
           />
-          <ProfileCard
+         
+         
+        </div>
+          <div className="qualification-row">
+           <ProfileCard
             img={sasi}
             title=" Mr. Sasikumar Subramanian"
             content={`Business Analyst
@@ -249,17 +262,17 @@ Certified National Trainer- JCI India,
 Certified DISC Coach,
 Expert in Data Driven Decision Making.`}
           />
-         
-        </div>
-          {/* <div className="qualification-row">
               <ProfileCard
-            img={SS}
-            title="Arun kumar"
+            img={arun}
+            title="Mr.Arun kumar"
             content={`Digital Partner
+            Experience - 9 years in Industrial ERP & CRM development
+            6 years Experience in Digital Marketing and Tools
+
                         
              `}
           />
-          </div> */}
+          </div>
        
       </div>
 {/* our trainer */}
