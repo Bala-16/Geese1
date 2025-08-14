@@ -264,7 +264,7 @@ Expert in Data Driven Decision Making.`}
           />
               <ProfileCard
             img={arun}
-            title="Mr.Arun kumar"
+            title="Mr.Arunkumar"
             content={`Digital Partner
             Experience - 9 years in Industrial ERP & CRM development
             6 years Experience in Digital Marketing and Tools
