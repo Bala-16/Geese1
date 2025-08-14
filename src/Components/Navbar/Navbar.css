@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
 
 
 body{
    font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: weight; */
+
   font-style: normal;
 }
-/* Base layout */
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -24,7 +24,7 @@ body{
   height: auto;
 }
 
-/* Links */
+
 .link {
   display: flex;
   gap: 30px;
@@ -53,7 +53,7 @@ body{
   bottom: 0;
   width: 0;
   height: 2px;
-  background: #ffd702; /* underline color */
+  background: #ffd702; 
   transition: width 0.3s ease-in-out;
 }
 .link a:hover::after {
@@ -69,29 +69,19 @@ body{
 }
 
 .link .btn::after {
-  display: none; /* remove underline animation */
+  display: none; 
 }
 
 .link .btn:hover {
   background: #ffd702; 
   color: #fff;
 }
-/* .btn {
-  background: #f4c542;
 
-  border-radius: 15px;
-  text-align: center;
-  padding: 5px;
-  outline: 0px;
-  border: 0px;
-} */
-
-/* Hamburger button (mobile only) */
 .menu-toggle {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #fff; /* White or any background */
+  background-color: #fff; 
   color: #f8d26a;
   display: none;
   font-size: 28px;
@@ -108,7 +98,7 @@ body{
 }
 
 
-/* Mobile view */
+
 @media (max-width: 1100px) {
   .menu-toggle {
     display: block;
@@ -133,4 +123,133 @@ body{
   }
 }
 
+ */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap');
 
+:root {
+  --primary-color: #15416e;
+  --accent-color: #ffd702;
+  --white: #fff;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+}
+
+/* Base layout */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: var(--primary-color);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  background-color: var(--white);
+  border-radius: 28px;
+  width: 180px;
+}
+
+/* Links */
+.link {
+  display: flex;
+  gap: 30px;
+}
+
+.link a,
+.link .btn {
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 5px 0;
+  transition: all 0.3s ease;
+}
+
+.link a {
+  color: var(--white);
+}
+
+.link a:hover {
+  color: var(--accent-color);
+}
+
+.link a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: var(--accent-color);
+  transition: width 0.3s ease-in-out;
+}
+
+.link a:hover::after {
+  width: 100%;
+}
+
+.link .btn {
+  background: var(--accent-color);
+  color: #000;
+  padding: 8px 15px;
+  border-radius: 15px;
+}
+
+.link .btn:hover {
+  color: var(--white);
+}
+
+.link .btn::after {
+  display: none;
+}
+
+/* Hamburger */
+.menu-toggle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--white);
+  color: var(--accent-color);
+  display: none;
+  font-size: 28px;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.menu-toggle:hover {
+  transform: scale(1.05);
+}
+
+/* Mobile view */
+@media (max-width: 1100px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .link {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    background: var(--primary-color);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 999;
+  }
+
+  .link.open {
+    display: flex;
+  }
+}

@@ -32,13 +32,7 @@
   color: #fff; /* Replace with your theme color */
 }
 
-.divider {
-  height: 3px;
-  width: 80px;
-  background-color: #ff6600; /* Theme color */
-  border: none;
-  margin-top: 10px;
-}
+
 
 .about-right h5 {
   font-size: 1.3rem;
@@ -49,61 +43,7 @@
   margin-top: 10px;
   text-align: center;
 }
-/* .animated-yellow {
-  background-color: #15416e; 
-  color: #fff;
-  margin-top: 10px;
-  padding: 12px 15px;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  animation: pulse 2s infinite;
-}
 
-
-.animated-yellow:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-}
-
-
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(207, 8, 8, 0.9);
-  }
-  70% {
-    box-shadow: 0 0 0 12px rgba(255, 215, 0, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(255, 215, 0, 0);
-  }
-}
-
-
-@media (max-width: 600px) {
-  .animated-yellow {
-    width: 100%;
-    font-size: 14px;
-    padding: 10px;
-  }
-}
-
-@media (max-width: 768px) {
-  .about-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .divider {
-    margin: 10px auto;
-  }
-} */
-
-/* src/components/About/About.css */
 
 .qualification-container {
   display: flex;
@@ -178,22 +118,7 @@
   color: #fbbc05;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .qualification-container {
-    flex-direction: column;
-    gap: 30px;
-    text-align: center;
-  }
 
-  .qualification-text h3::after {
-    margin: 8px auto 0 auto;
-  }
-
-  .qualification-text {
-    font-size: 0.95rem;
-  }
-}
 .full {
   width: 100%;
   height: 4px;
@@ -542,26 +467,6 @@
 }
 
 
-/* .button-block {
-  margin-left: 90px;
-  text-align: right;
-} 
-
- .whoami-button {
-  background: #ffd702;
-  color: #fff;
-  padding: 14px 28px;
-  font-size: 1rem;
-  font-weight: 600;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background 0.3s, transform 0.2s;
-}
-
-.whoami-button:hover {
-  background-color: #ffd702;
-} */
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
@@ -614,11 +519,7 @@
   color: #000;
   margin-bottom: 20px;
 }
-/* .nadhakumar-text span {
-  font-family: "Lora", serif;
-  color: #ffd702;
-  font-weight: bold;
-} */
+
 
 .nadhakumar-text p {
   font-size: 1.5rem;
@@ -695,16 +596,7 @@
     text-align: justify;
   }
 
-  /* .toggle-btn {
-    font-size: 0.95rem;
-    padding: 10px 16px;
-    max-width: 100%;
-  }
-
-  .unique-card {
-    font-size: 0.95rem;
-    padding: 10px;
-  } */
+ 
 }
 
 @media (max-width: 480px) {
@@ -843,6 +735,19 @@
 
 /* Tablet view (2 columns) */
 @media (min-width: 768px) {
+    .qualification-container {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .qualification-text h3::after {
+    margin: 8px auto 0 auto;
+  }
+
+  .qualification-text {
+    font-size: 0.95rem;
+  }
   .services-cards-1 {
     grid-template-columns: repeat(2, 1fr);
   }

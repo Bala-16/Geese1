@@ -1,5 +1,5 @@
 .contact-wrapper {
-  background-image: url('../../assets/img/starBG.png');
+  /* background-image: url('../../assets/img/starBG.png'); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -8,6 +8,7 @@
 }
 
 .contact-box {
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -17,8 +18,11 @@
 }
 
 .contact-info, .contact-form {
+  background-image: url('../../assets/img/circle.png');
+  background-repeat: no-repeat;
+  background-position: 80px 80px;
   flex: 1 1 150px;
-  background: #fff;
+  /* background: #fff; */
   padding: 25px;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(0,0,0,0.05);
@@ -70,10 +74,11 @@
 
 .map-title {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .map-container {
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

@@ -1,140 +1,74 @@
-
 .services-section-2 {
   padding: 4rem 2rem;
-  background-color: #f9faff;
+  background: #f9faff;
   text-align: center;
 }
 
 .services-heading-2 {
   font-size: 3rem;
   color: #fff;
-  background-color: #15416e;
+  background: #15416e;
   margin-bottom: 3rem;
- 
   text-transform: uppercase;
- 
 }
-.services-heading-2 span{
-  color: #ffd702;
-}
+.services-heading-2 span { color: #ffd702; }
+
 .services-cards-1 {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  justify-content: center;
   padding: 1rem;
 }
 
-
-.service-card-2{
-  background-image: url("../../assets/img/starBG.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  
+.service-card-2 {
+  background: url("../../assets/img/starBG.png") center/cover no-repeat;
   padding: 20px 10px;
   border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: 0.3s;
   text-align: left;
 }
-
 .service-card-2:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.1);
 }
 
 .service-card-2 h3 {
   font-size: 2.5rem;
   color: #000;
-position: relative;
+  font-weight: 800;
   text-align: center;
   margin-bottom: 1rem;
-  font-weight: 800;
-  cursor: pointer; /* optional: adds hover hand cursor */
-  transition: color 0.3s ease;
-
+  position: relative;
+  cursor: pointer;
 }
 .service-card-2 h3::after {
   content: "";
   position: absolute;
-  left: 0;
-  bottom: -6px;
-  width: 0%;
-  height: 3px;
-  background-color: #ffd702;
-  transition: width 0.4s ease;
+  left: 0; bottom: -6px;
+  width: 0; height: 3px;
+  background: #ffd702;
+  transition: width 0.4s;
 }
-
-.service-card-2 h3:hover::after {
-  width: 100%;
-}
+.service-card-2 h3:hover::after { width: 100%; }
 
 .service-card-2 h4 {
   font-size: 1.4rem;
   color: #000;
   text-decoration: underline;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin: 1.5rem 0 0.5rem;
   font-weight: 500;
 }
 
-.service-card-2 ul {
-  padding-left: 1rem;
-  list-style: disc;
-}
-
+.service-card-2 ul { padding-left: 1rem; list-style: disc; }
 .service-card-2 li {
   margin-bottom: 0.5rem;
   font-size: 1.4rem;
   color: #000;
   line-height: 1.5;
 }
-@media (max-width: 768px) {
-  .services-cards-1{
-     grid-template-columns: repeat(1, 1fr);
-  }
-  .services-heading-2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
 
-  .service-card-2 h3 {
-    font-size: 2rem;
-  }
-
-  .service-card-2 {
-    padding: 1.5rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .services-cards-1{
-     grid-template-columns: 1fr;
-  }
-  .services-heading-2 {
-    font-size: 1.75rem;
-  }
-
-  .services-cards-2 {
-    grid-template-columns: 1fr;
-  }
-
-  .service-card-2 h3 {
-    font-size: 1.8rem;
-  }
-
-  .service-card-2 ul {
-    padding-left: 1rem;
-    
-  }
-
-  .service-card-2 li {
-    font-size: 1.1rem;
-  }
-}
-
-
+/* Description + Stats */
 .description {
   font-size: 1.8rem;
   color: #000;
@@ -142,10 +76,7 @@ position: relative;
   margin-bottom: 2rem;
   text-align: center;
 }
-.description strong {
-  font-family: "Lora", serif;
-  color: #fff;
-}
+.description strong { font-family: "Lora", serif; color: #fff; }
 
 .stats-row {
   display: grid;
@@ -153,60 +84,31 @@ position: relative;
   gap: 1.5rem;
   margin-bottom: 2rem;
 }
-
-
 .stat {
   text-align: center;
   padding: 8px 1px;
   border-radius: 12px;
   background: #000;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s;
 }
+.stat:hover { transform: translateY(-5px); }
+.stat-number { font-size: 1.7rem; font-weight: 700; color: #ffd702; }
+.stat-label { font-size: 1.2rem; color: #fff; }
 
-.stat:hover {
-  transform: translateY(-5px);
-}
+.cta { font-weight: 700; font-size: 1.2rem; text-align: center; }
+.cta span { color: #000; }
 
-.stat-number {
-  font-size: 1.7rem;
-  font-weight: 700;
-  color: #ffd702;
-  margin-bottom: 0.4rem;
+/* Responsive */
+@media (max-width: 768px) {
+  .services-cards-1 { grid-template-columns: 1fr; }
+  .services-heading-2 { font-size: 2rem; margin-bottom: 2rem; }
+  .service-card-2 h3 { font-size: 2rem; }
 }
-
-.stat-label {
-  font-size: 1.2rem;
-  color: #fff;
-}
-.cta {
-  font-weight: 700;
-  font-size: 1.2rem;
-  text-align: center;
-}
-
-.cta span {
-  color: #000;
-}
-
-@keyframes fadeInUp {
-  from {
-    transform: translateY(40px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
 @media (max-width: 480px) {
-  .tagline {
-    font-size: 1.5rem;
-  }
-  .description {
-    font-size: 0.95rem;
-  }
-  .stat-number {
-    font-size: 1.5rem;
-  }
+  .services-heading-2 { font-size: 1.75rem; }
+  .service-card-2 h3 { font-size: 1.8rem; }
+  .service-card-2 li { font-size: 1.1rem; }
+  .tagline { font-size: 1.5rem; }
+  .description { font-size: 0.95rem; }
+  .stat-number { font-size: 1.5rem; }
 }
