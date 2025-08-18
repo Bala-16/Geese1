@@ -22,7 +22,7 @@ import prasana from "../../assets/img/Head/prasana.png"
 import bagee from "../../assets/img/Head/bagee.png"
 import sasi from "../../assets/img/Head/sasi.png"
 import giri from "../../assets/img/Head/giri.png"
-import arun from "../../assets/img/Head/arun.png"
+import T14 from "../../assets/img/trainer/T14.png"
 import NK from "../../assets/NK.png";
 
 
@@ -155,13 +155,16 @@ const trainers = [
     name: "Mr.A. Maria Shajahan",
     // role: "Sales & Marketing Trainer",
     bio: "(Specialise in Soft skill Training)",
+    
   },
-  // {
-  //   img: T10,
-  //   name: "S. Johnson",
-  //   role: "Game Specialist",
-  //   bio: "POSH Enabler, Reflective Practitioner, One-to-One Expert.",
-  // },
+  
+  {
+    img: T14,
+    name: "Mr.Arunkumar",
+    role: "(Digital Partner)",
+    // bio: " Experience - 9 years in Industrial ERP & CRM development(6 years Experience in Digital Marketing and Tools)"
+
+  },
 ];
 
 const Team = () => {
@@ -226,7 +229,7 @@ International Sales Coach, Author.
             img={giri}
             title=" Mr.Giridhar"
             content={`Mentor-GEESE
-International Sales Coach, Author.
+Expert in Strategic Management and Planning.
 `}
           />
        
@@ -246,7 +249,7 @@ Certified POSH Enabler,
           <ProfileCard
             img={bagee}
             title="Mrs. Bageerathi Nandakumar"
-            content={`Head-People Alchemist
+            content={`Head-Operations
 Competency Assessment, Reflective Practitioner,
 One-to-One Specialist,
 Certified POSH Enabler.`}
@@ -263,7 +266,7 @@ Certified National Trainer- JCI India,
 Certified DISC Coach,
 Expert in Data Driven Decision Making.`}
           />
-              <ProfileCard
+              {/* <ProfileCard
             img={arun}
             title="Mr.Arunkumar"
             content={`Digital Partner
@@ -272,7 +275,7 @@ Expert in Data Driven Decision Making.`}
 
                         
              `}
-          />
+          /> */}
           </div>
        
       </div>
