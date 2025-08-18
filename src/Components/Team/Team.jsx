@@ -240,12 +240,15 @@ Expert in Strategic Management and Planning.
            <ProfileCard
             img={NK}
             title=" Mr. Nandakumar Selvaraj"
-            content={`Head-Strategic Marketing
+            content={`Head - Strategic Planning & Business Excellence
+            Certified Management Consultant
+            Expert in GTM (go-to-market).`}
+          />
+          {/* Head-Strategic Marketing
 Certified NLP Master Practitioner, 
 Sales Excellence Coach,
 Certified POSH Enabler,
- C.E.O Coach, MSME Trainer.`}
-          />
+ C.E.O Coach, MSME Trainer. */}
           <ProfileCard
             img={bagee}
             title="Mrs. Bageerathi Nandakumar"
