@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import roadmap from "../../assets/img/roadmap.png"
 import "./About.css";
 
 const About = () => {
@@ -195,6 +196,10 @@ const About = () => {
           </p>
         </section>
       </div>
+      <div class="full-underline"></div>
+      <div className="roadmap-container">
+        <img src={roadmap} alt="Roadmap" className="roadmap-image1"/>
+        </div>
     </>
   );
 };

@@ -761,4 +761,14 @@
 }
 
 
+.roadmap-image1 {
+  width: 100%;
+  max-width: 60%;
+  height:auto;
+}
+@media (min-width: 992px) {
+  .roadmap-image1 {
+    max-width: 40%; /* reduce size on larger screens */
+  }
+}
 
