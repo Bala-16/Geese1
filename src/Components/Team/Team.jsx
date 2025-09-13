@@ -23,6 +23,8 @@ import bagee from "../../assets/img/Head/bagee.png"
 import sasi from "../../assets/img/Head/sasi.png"
 import giri from "../../assets/img/Head/giri.png"
 import T14 from "../../assets/img/trainer/T14.png"
+import T15 from "../../assets/img/trainer/T15.png"
+import T16 from "../../assets/img/trainer/T16.png"
 import NK from "../../assets/NK.png";
 
 
@@ -162,6 +164,20 @@ const trainers = [
     img: T14,
     name: "Mr.Arunkumar",
     role: "(Digital Partner)",
+    // bio: " Experience - 9 years in Industrial ERP & CRM development(6 years Experience in Digital Marketing and Tools)"
+
+  },
+  {
+    img: T15,
+    name: "Mrs. Anandyneethugurusamy",
+    role: "(Expertise in Sales and Marketing)",
+    // bio: " Experience - 9 years in Industrial ERP & CRM development(6 years Experience in Digital Marketing and Tools)"
+
+  },
+  {
+    img: T16,
+    name: "Mr.R.KALAICHELVAN",
+    role: "(Specialise in Life Skills)",
     // bio: " Experience - 9 years in Industrial ERP & CRM development(6 years Experience in Digital Marketing and Tools)"
 
   },
