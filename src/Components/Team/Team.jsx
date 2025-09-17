@@ -25,6 +25,7 @@ import giri from "../../assets/img/Head/giri.png"
 import T14 from "../../assets/img/trainer/T14.png"
 import T15 from "../../assets/img/trainer/T15.png"
 import T16 from "../../assets/img/trainer/T16.png"
+import T17 from "../../assets/img/trainer/T17.png"
 import NK from "../../assets/NK.png";
 
 
@@ -176,8 +177,15 @@ const trainers = [
   },
   {
     img: T16,
-    name: "Mr.R.KALAICHELVAN",
+    name: "Mr.R.Kalaichelvan ",
     role: "(Specialise in Life Skills)",
+    // bio: " Experience - 9 years in Industrial ERP & CRM development(6 years Experience in Digital Marketing and Tools)"
+
+  },
+   {
+    img: T17,
+    name: "Mr. M. Neethi Gurusamy",
+    role: "(Specialised in Sales Leadership)",
     // bio: " Experience - 9 years in Industrial ERP & CRM development(6 years Experience in Digital Marketing and Tools)"
 
   },

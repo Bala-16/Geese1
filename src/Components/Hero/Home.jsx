@@ -48,6 +48,7 @@ import TAI from "../../assets/Association/TAI.png";
 import TNHA from "../../assets/Association/TNHA.png";
 import divine from "../../assets/Corparate clients/divine.png";
 import aswins from "../../assets/Corparate clients/aswins.png";
+import NLC from "../../assets/Corparate clients/NLC.png";
 import AN from "../../assets/University/AN.jpg";
 import AREK from "../../assets/University/AREK.png";
 import IIM from "../../assets/University/IIM.jpg";
@@ -120,7 +121,7 @@ const Home = () => {
   {[Nike, Hyundai, sumangali,Royal, HL, Apollo,chettinad,MGM, Converse, crocs,
     Decathlon, GE, Navin, KB, Nordex, Sachin, salomon,
     SBT, Tanishq, km, TCCL, MCP, Thanigai,Mayil,naturals,jain, Orange,
-    Focus,Maharaja,LIC,khadim, Murugappa,divine,aswins,athma,jaya,
+    Focus,Maharaja,LIC,khadim, Murugappa,divine,aswins,athma,jaya,NLC
   ].map((logo, index) => (
     <figure key={index} className="logo-figure">
       <img src={logo} alt={`Logo ${index + 1}`} />
