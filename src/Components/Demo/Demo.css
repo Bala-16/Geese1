@@ -1,50 +1,74 @@
-.profile-card {
-  padding: 1rem;
+.testimonial-section {
+  background-color: #f7f7f7;
+  padding: 60px 20px;
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
-.profile-img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: transform 0.3s ease;
+.testimonial-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
 }
 
-.profile-img:hover {
-  transform: scale(1.05);
+.testimonial-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.popup-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  background-color: rgba(0, 0, 0, 0.4);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
+.testimonial-card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
 }
 
-.popup-box {
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 1rem;
-  max-width: 400px;
-  width: 90%;
-  text-align: center;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+.testimonial-text {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  max-height: 4.8em; /* roughly 3 lines */
+  overflow: hidden;
+  position: relative;
 }
 
-.popup-box button {
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: #007bff;
-  color: white;
+.testimonial-text.expanded {
+  max-height: none;
+}
+
+.toggle-btn {
+  background: none;
   border: none;
-  border-radius: 0.5rem;
+  color: #007bff;
+  font-weight: 600;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 5px;
+  transition: 0.3s;
+}
+
+.toggle-btn:hover {
+  color: #0056b3;
+}
+
+.testimonial-footer {
+  border-top: 1px solid #eee;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+.testimonial-name {
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 2px;
+}
+
+.testimonial-role {
+  font-size: 14px;
+  color: #777;
 }
