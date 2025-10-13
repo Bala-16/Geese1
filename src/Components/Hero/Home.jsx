@@ -42,6 +42,7 @@ import jaya from "../../assets/Corparate clients/jaya.png";
 import divine from "../../assets/Corparate clients/divine.png";
 import aswins from "../../assets/Corparate clients/aswins.png";
 import NLC from "../../assets/Corparate clients/NLC.png";
+import CPI from "../../assets/Corparate clients/CPI.png";
 
 import BNI from "../../assets/Association/BNI.png";
 import JCI from "../../assets/Association/JCI.jpg";
@@ -49,6 +50,7 @@ import LI from "../../assets/Association/LI.png";
 import Rotary from "../../assets/Association/Rotary.png";
 import TAI from "../../assets/Association/TAI.png";
 import TNHA from "../../assets/Association/TNHA.png";
+import AM from "../../assets/Corparate clients/AM.png";
 
 import AN from "../../assets/University/AN.jpg";
 import AREK from "../../assets/University/AREK.png";
@@ -110,6 +112,14 @@ const Home = () => {
       role: "The Sachin’s Kitchen",
       text: `My journey with Mr. Nandhakumar as my personal CEO coach has been nothing short of transformational. His ability to listen deeply, ask the right questions, and offer powerful, actionable insights helped me unlock new levels of clarity and confidence as a leader. He challenged me to think bigger, refine my vision, and approach decisions with sharper strategy and purpose. Every session left me energized, inspired, and equipped with tools I could apply immediately. If you’re serious about elevating your leadership and creating lasting impact, Mr. Nandhakumar is the mentor you need by your side.`,
     },
+
+    {
+      name: "P. Salai kumaran",
+      role: "Deputy Director Athma Mind Care Hospital",
+      text: `We extend our heartfelt appreciation to Mr. S. Sasikumar from GEESE HR and Business Solutions for delivering an exceptional and impactful training program. His engaging approach, industry insight, and practical exercises made learning both effective and enjoyable.
+The sessions not only enhanced our team’s skills and confidence but also boosted productivity and collaboration. His passion and professionalism truly inspired our staff to strive for excellence.
+We highly recommend Mr. Sasikumar’s training services to any organization seeking performance growth and team development`,
+    },
   ];
 
   return (
@@ -155,6 +165,7 @@ const Home = () => {
           crocs,
           Decathlon,
           GE,
+          CPI,
           Navin,
           KB,
           Nordex,
@@ -173,6 +184,7 @@ const Home = () => {
           Focus,
           Maharaja,
           LIC,
+          AM,
           khadim,
           Murugappa,
           divine,

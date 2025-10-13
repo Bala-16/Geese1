@@ -16,18 +16,17 @@ import T10 from "../../assets/img/trainer/T10.png";
 import T11 from "../../assets/img/trainer/T11.png";
 import T12 from "../../assets/img/trainer/T12.png";
 import T13 from "../../assets/img/trainer/T13.png";
-import srini from "../../assets/img/Head/srini.png"
-import muruga from "../../assets/img/Head/muruga.png"
-import prasana from "../../assets/img/Head/prasana.png"
-import bagee from "../../assets/img/Head/bagee.png"
-import sasi from "../../assets/img/Head/sasi.png"
-import giri from "../../assets/img/Head/giri.png"
-import T14 from "../../assets/img/trainer/T14.png"
-import T15 from "../../assets/img/trainer/T15.png"
-import T16 from "../../assets/img/trainer/T16.png"
-import T17 from "../../assets/img/trainer/T17.png"
+import srini from "../../assets/img/Head/srini.png";
+import muruga from "../../assets/img/Head/muruga.png";
+import prasana from "../../assets/img/Head/prasana.png";
+import bagee from "../../assets/img/Head/bagee.png";
+import sasi from "../../assets/img/Head/sasi.png";
+import giri from "../../assets/img/Head/giri.png";
+import T14 from "../../assets/img/trainer/T14.png";
+import T15 from "../../assets/img/trainer/T15.png";
+import T16 from "../../assets/img/trainer/T16.png";
+import T17 from "../../assets/img/trainer/T17.png";
 import NK from "../../assets/NK.png";
-
 
 const ProfileCard = ({ img, title, content }) => {
   const [showDetails, setShowDetails] = useState(false);
@@ -71,12 +70,18 @@ const ProfileCard = ({ img, title, content }) => {
       <motion.div
         className="card-toggle-content"
         initial={false}
-        animate={showDetails ? { height: "auto", opacity: 1 } : { height: 0, opacity: 0 }}
+        animate={
+          showDetails
+            ? { height: "auto", opacity: 1 }
+            : { height: 0, opacity: 0 }
+        }
         transition={{ duration: 0.4 }}
         style={{ overflow: "hidden" }}
       >
         {toggleLines.map((line, index) => (
-          <p className="card-content-line" key={index}>{line}</p>
+          <p className="card-content-line" key={index}>
+            {line}
+          </p>
         ))}
       </motion.div>
     </motion.div>
@@ -101,7 +106,7 @@ const trainers = [
     name: "Mr.KV. Rajeshkumar",
 
     // role: "Organisational  Growth Mentor",
-    bio:"(Expertise in Organisational Growth)"
+    bio: "(Expertise in Organisational Growth)",
   },
   {
     img: T11,
@@ -125,14 +130,14 @@ const trainers = [
     img: T5,
     name: "Mrs.R. Kamalambal ",
     // role: "HR Trainer & POSH Enabler",
-    bio:"(Specialise in POSH Training)"
+    bio: "(Specialise in POSH Training)",
   },
   {
     img: T7,
     name: "Mr.S.AthiNarayanan.,",
     // role: "Psychological Specialist",
     // role: "Skill Development Trainer",
-    bio:"(Specialise in Sales Training)"
+    bio: "(Specialise in Sales Training)",
   },
   {
     img: T12,
@@ -158,46 +163,40 @@ const trainers = [
     name: "Mr.A. Maria Shajahan",
     // role: "Sales & Marketing Trainer",
     bio: "(Specialise in Soft skill Training)",
-    
   },
-  
+
   {
     img: T14,
     name: "Mr.Arunkumar",
     role: "(Digital Partner)",
     // bio: " Experience - 9 years in Industrial ERP & CRM development(6 years Experience in Digital Marketing and Tools)"
-
   },
   {
     img: T15,
     name: "Mrs. Anandyneethugurusamy",
     role: "(Expertise in Sales and Marketing)",
     // bio: " Experience - 9 years in Industrial ERP & CRM development(6 years Experience in Digital Marketing and Tools)"
-
   },
   {
     img: T16,
     name: "Mr.R.Kalaichelvan ",
     role: "(Specialise in Life Skills)",
     // bio: " Experience - 9 years in Industrial ERP & CRM development(6 years Experience in Digital Marketing and Tools)"
-
   },
-   {
+  {
     img: T17,
     name: "Mr. M. Neethi Gurusamy",
     role: "(Specialised in Sales Leadership)",
     // bio: " Experience - 9 years in Industrial ERP & CRM development(6 years Experience in Digital Marketing and Tools)"
-
   },
 ];
 
 const Team = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
-   const handleImageClick = (index) => {
+  const handleImageClick = (index) => {
     setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
   };
-  
 
   const closePopup = () => {
     setSelectedTrainer(null);
@@ -213,8 +212,6 @@ const Team = () => {
           </div>
         </div>
       </section>
-
-    
 
       {/* PROFILE CARDS */}
       <div className="qualifications-wrapper">
@@ -239,29 +236,25 @@ Expertise in Strategic Learning and development
 Leadership and Managerial development`}
           />
         </div>
-        
 
         <div className="qualification-row">
-           <ProfileCard
-            img={prasana}
-            title=" Mr. Prasanna Venkatesan"
-            content={`Mentor-GEESE
-International Sales Coach, Author.
-`}
-          />
-            <ProfileCard
+          <ProfileCard
             img={giri}
             title=" Mr.Giridhar"
             content={`Mentor-GEESE
 Expert in Strategic Management and Planning.
 `}
           />
-       
-          
-        
+          <ProfileCard
+            img={prasana}
+            title=" Mr. Prasanna Venkatesan"
+            content={`Mentor-GEESE
+International Sales Coach, Author.
+`}
+          />
         </div>
         <div className="qualification-row">
-           <ProfileCard
+          <ProfileCard
             img={NK}
             title=" Mr. Nandakumar Selvaraj"
             content={`Head - Strategic Planning & Business Excellence
@@ -281,11 +274,9 @@ Competency Assessment, Reflective Practitioner,
 One-to-One Specialist,
 Certified POSH Enabler.`}
           />
-         
-         
         </div>
-          <div className="qualification-row">
-           <ProfileCard
+        <div className="qualification-row">
+          <ProfileCard
             img={sasi}
             title=" Mr. Sasikumar Subramanian"
             content={`Business Analyst
@@ -293,7 +284,7 @@ Certified National Trainer- JCI India,
 Certified DISC Coach,
 Expert in Data Driven Decision Making.`}
           />
-              {/* <ProfileCard
+          {/* <ProfileCard
             img={arun}
             title="Mr.Arunkumar"
             content={`Digital Partner
@@ -303,27 +294,26 @@ Expert in Data Driven Decision Making.`}
                         
              `}
           /> */}
-          </div>
-       
+        </div>
       </div>
-{/* our trainer */}
-       <section className="trainer-section">
-      <h2 className="trainer-heading">
-        Meet <span>Our Trainers</span>
-      </h2>
+      {/* our trainer */}
+      <section className="trainer-section">
+        <h2 className="trainer-heading">
+          Meet <span>Our Trainers</span>
+        </h2>
 
-      <div className="trainer-row">
-        {trainers.map((trainer, index) => (
-          <div className="trainer-card" key={index}>
-            <img
-              src={trainer.img}
-              alt={trainer.name}
-              className="trainer-img"
-              // onClick={() => handleImageClick(index)}
-            />
-            <h3>{trainer.name}</h3>
+        <div className="trainer-row">
+          {trainers.map((trainer, index) => (
+            <div className="trainer-card" key={index}>
+              <img
+                src={trainer.img}
+                alt={trainer.name}
+                className="trainer-img"
+                // onClick={() => handleImageClick(index)}
+              />
+              <h3>{trainer.name}</h3>
 
-            {/* <motion.div
+              {/* <motion.div
               initial={false}
               animate={
                 openIndex === index
@@ -336,12 +326,12 @@ Expert in Data Driven Decision Making.`}
             >
               
             </motion.div> */}
-            <p className="trainer-role">{trainer.role}</p>
+              <p className="trainer-role">{trainer.role}</p>
               <p className="trainer-bio">{trainer.bio}</p>
-          </div>
-        ))}
-      </div>
-    </section>
+            </div>
+          ))}
+        </div>
+      </section>
     </>
   );
 };
