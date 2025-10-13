@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Hero/Home";
+import './Components/Hero/Home.css';
 import About from "./Components/About/About";
 import Team from "./Components/Team/Team";
 import Services from "./Components/Ourservices/Services";

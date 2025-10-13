@@ -385,7 +385,8 @@
 .testimonial-section h2 {
   font-size: 32px;
   margin-bottom: 40px;
-  color: #333;
+  color: #15416e;
+  
 }
 
 .testimonial-grid {
@@ -407,7 +408,7 @@
 
 .testimonial-text {
   font-size: 16px;
-  color: #555;
+  color: #111;
   line-height: 1.6;
   max-height: 4.8em; /* roughly 3 lines */
   overflow: hidden;
@@ -442,7 +443,7 @@
 }
 
 .testimonial-name {
-  font-weight: 700;
+  font-weight: 900;
   color: #222;
   margin-bottom: 2px;
 }
