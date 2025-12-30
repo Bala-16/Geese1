@@ -178,8 +178,7 @@
 
 /* Top image */
 .grp1 {
-    grid-column: 1 / 3; /* spans two columns */
-    justify-self: center;
+    grid-column: 2 / 3; /* spans two columns */
     width: 70%;
 }
 
@@ -189,7 +188,8 @@
 }
 
 .grp3 {
-    grid-column: 2 / 3;
+    grid-column: 1/ 3;
+    justify-self: center;
 }
 /* Responsive */
 /* Responsive Design */
