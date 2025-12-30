@@ -161,10 +161,9 @@
   /* border: 2px solid #ccc; */
 }
 .grp{
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
 }
 /* Responsive */
 /* Responsive Design */
