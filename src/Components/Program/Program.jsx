@@ -38,6 +38,7 @@ const Programs = () => {
       <h2 className="logo-title">Specially made for Team Members</h2>
     </div>
   </div>
+  
 
   <div className="bottom-row">
     <div className="logo-block full-width">
@@ -48,6 +49,9 @@ const Programs = () => {
                  <h2>Specially made for Trainers and Business Owners</h2>
     </div>
   </div>
+</div>
+<div className="grp">
+        <img src={grp1} alt="grp1" className="grp1-img" />
 </div>
 
           {/* <div className="program-logos">
@@ -80,7 +84,7 @@ const Programs = () => {
       <div className="right-section">
         <h2 className="sub-title">OUR PUBLICATIONS</h2>
         <div className="books">
-          <img src={grp1} alt="SMS Book" className="book-img" />
+          <img src={BG2} alt="SMS Book" className="book-img" />
           {/* <img src={book2} alt="UTHRA Book" className="book-img" /> */}
         </div>
       </div>
