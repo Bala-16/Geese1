@@ -52,6 +52,8 @@ const Programs = () => {
 </div>
 <div className="grp">
         <img src={grp1} alt="grp1" className="grp1-img" />
+        <img src={grp2} alt="grp2" className="grp2-img" />
+        <img src={grp3} alt="grp3" className="grp3-img" />
 </div>
 
           {/* <div className="program-logos">
