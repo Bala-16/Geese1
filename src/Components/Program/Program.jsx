@@ -7,6 +7,10 @@ import BG2 from "../../assets/img/BG2.jpg";
 import MEME from "../../assets/img/MEME.png";
 import masster from "../../assets/img/masster.png";
 import Masster1 from "../../assets/img/Masster1.jpg";
+import grp1 from "../../assets/grp1.jpeg";
+import grp2 from "../../assets/grp2.jpeg";
+import grp3 from "../../assets/grp3.jpeg";
+
 // import book2 from "../../assets/img/book_uthra.jpg"; // Add Book 2 image
 
 const Programs = () => {
@@ -76,7 +80,7 @@ const Programs = () => {
       <div className="right-section">
         <h2 className="sub-title">OUR PUBLICATIONS</h2>
         <div className="books">
-          <img src={BG2} alt="SMS Book" className="book-img" />
+          <img src={grp1} alt="SMS Book" className="book-img" />
           {/* <img src={book2} alt="UTHRA Book" className="book-img" /> */}
         </div>
       </div>
