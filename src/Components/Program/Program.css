@@ -160,7 +160,12 @@
   width: 900px;
   /* border: 2px solid #ccc; */
 }
-
+.grp{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
 /* Responsive */
 /* Responsive Design */
 @media (max-width: 1024px) {
