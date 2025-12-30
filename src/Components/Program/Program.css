@@ -214,3 +214,16 @@
   .logo-img { max-width: 250px; }
   .description-1 { width: 95%; font-size: 1rem; }
 }
+
+@media (max-width: 600px) {
+    .grp {
+        grid-template-columns: 1fr;
+    }
+
+    .grp1-img,
+    .grp2-img,
+    .grp3-img {
+        grid-column: 1;
+        justify-self: center;
+    }
+}
