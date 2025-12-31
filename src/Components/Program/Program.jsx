@@ -51,11 +51,7 @@ const Programs = () => {
   </div>
 </div>
 
-<div className="grp">
-        <img src={grp3} alt="grp3" className="grp3-img" />
-        <img src={grp2} alt="grp2" className="grp2-img" />
-        <img src={grp1} alt="grp1" className="grp1-img" />
-</div>
+
 
           {/* <div className="program-logos">
             <div>
@@ -82,6 +78,12 @@ const Programs = () => {
             </p>
           </div>
         </div>
+
+        <div className="grp">
+        <img src={grp3} alt="grp3" className="grp3-img" />
+        <img src={grp2} alt="grp2" className="grp2-img" />
+        <img src={grp1} alt="grp1" className="grp1-img" />
+</div>
       </div>
       <br />
       <div className="right-section">
