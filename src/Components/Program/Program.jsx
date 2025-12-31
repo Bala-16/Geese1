@@ -78,7 +78,7 @@ const Programs = () => {
             </p>
           </div>
         </div>
-
+<br/>
         <div className="grp">
         <img src={grp3} alt="grp3" className="grp3-img" />
         <img src={grp2} alt="grp2" className="grp2-img" />
